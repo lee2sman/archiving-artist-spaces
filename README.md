@@ -34,6 +34,8 @@ Lee Tusman is an educator, researcher, programmer and artist-organizer at artist
 
 [Artists in the Archive - ITP Spring 2019 course taught by Jer Thorp](https://github.com/blprnt/ArtArchive) (GitHub Repository, 2019)
 
+[What Do you Mean by Archive? Genres of Usage for Digital Preservers](https://blogs.loc.gov/thesignal/2014/02/what-do-you-mean-by-archive-genres-of-usage-for-digital-preservers/) (Library of Congress Blog, 2014)  
+
 ### Screenshots
 
 ![Experimental Archive Space - 'raiding the icebox'](assets/img/raiding-the-icebox.jpg)
