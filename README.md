@@ -28,6 +28,10 @@ Lee Tusman is an educator, researcher, programmer and artist-organizer at artist
 * Secure funding for developing these tools, building website with documentation, assist in costs for travel, and to pay honorariums
 * Secure an institutional partner(s) to serve as long term care takers of these archives 
 
+### Tools
+
+[tools](tools.md)
+
 ### Links
 
 [Experimental Archive Space for Space 1026](http://experimentalarchive.space)
