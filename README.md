@@ -32,6 +32,8 @@ Lee Tusman is an educator, researcher, programmer and artist-organizer at artist
 
 [Experimental Archive Space for Space 1026](http://experimentalarchive.space)
 
+[Artists in the Archive - ITP Spring 2019 course taught by Jer Thorp](https://github.com/blprnt/ArtArchive) (GitHub Repository, 2019)
+
 ### Screenshots
 
 ![Experimental Archive Space - 'raiding the icebox'](assets/img/raiding-the-icebox.jpg)

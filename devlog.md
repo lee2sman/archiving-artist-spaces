@@ -8,4 +8,3 @@ Links:
 
 [Car, shed ... elevator? The Los Angeles art spaces proving smaller is better](https://www.theguardian.com/artanddesign/2017/jun/30/los-angeles-alternative-art-galleries-gallery1993) (The Guardian, 2017)
 
-
