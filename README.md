@@ -4,6 +4,10 @@
 
 An archival project to preserve images, oral history and activity of precarious artist-run spaces
 
+![Experimental Archive Space - homepage](assets/img/homepage.jpg)
+
+![Experimental Archive Space - interview page](assets/img/interview.jpg)
+
 ### Description 
 
 Artist-run spaces, also called DIY Spaces or Alternative Spaces are creative communities operating on the margins of cultural institutions. They exist in a precarious space, currently affected by the economy, pandemic, and gentrification. Many shuttered during the pandemic. Others have struggled to make rent.
@@ -28,6 +32,10 @@ Lee Tusman is an educator, researcher, programmer and artist-organizer at artist
 
 [Experimental Archive Space for Space 1026](http://experimentalarchive.space)
 
+### Screenshots
 
+![Experimental Archive Space - 'raiding the icebox'](assets/img/raiding-the-icebox.jpg)
 
+[Raid the Icebox I was an artist-curated exhibit by Andy Warhol at the RISD Museum. While not a direct reference, it partly inspires my archival work here.](https://risdmuseum.org/exhibitions-events/exhibitions/raid-icebox-1-andy-warhol)  
 
+![Experimental Archive Space - zine page](assets/img/zine.jpg)
