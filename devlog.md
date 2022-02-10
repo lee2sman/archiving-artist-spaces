@@ -14,3 +14,40 @@ Questions:
 * Who owns these archives as a whole and their items (photos, text, other elements) individually? (beginning to answer: the groups who contributed them, the 'public', no one)
 * What are we including? missing? leaving out? (beginning to answer: 'archived' frozen or cloned websites, social media images, oral history.; video recordings, physical media; those that didn't know or want to participate)
 * What is the goal? (to build archives and tools to attempt to capture some part of the artist creative and intellectual output and the community that develops out of these spaces. to be caretakers and share these archives for future audiences / generations. to build awareness of archiving needs and tools that artist-run communities can use.)
+
+## 2021-12-29
+
+This week I looked at CMS options for static sites. I didn't find much. I lean away from Wordpress and most other CMS because they're PHP and dynamic, opening them up to being hacked, requiring constant upgrade cycles and the complications of competing plugins. On the other hand A CMS allows non-coders to create and edit a site, so it would be nice to find something like this I could recommend to less-techinical artist spaces. One option I looked at are Wordpress -> static site output generators. The simplest and complete is SimplyStatic but it needs a $100 PRO annual account for the features I'd want, and it's not open source.
+
+Today I worked with Pete, a past organizer at Little Berlin (along with me and many others). He used OctoParse to grab the text content from all events, members and press pages and convert them to spreadsheets that he put in Google Drive. Spreadsheet files, such as from Google sheets or Excel or open source alternatives like Etherpad can be easily exported as CSV data files. I built a parser in node.js, using csv-parse and the built-in fs filesystem packages to ingest the events.csv file and then render out separate html pages for each separate event. I inject the basic html tags around these so the rendered page is html5.
+
+My next step was to tackle CSS. I turned on the developer features for the Squarespace site. I git cloned to downloaded the site to my local computer. Sniffing around the template file I was unable to find the obfuscated actual rendered CSS output, and the less css preprocessor files didn't seem to render out the Little Berlin site theme. Probably there's some other hidden magic that Squarespace hides, since that's how they make their money. 
+
+Okay, so my next step, from scratch, I wrote some CSS using flexbox, my layout tool of choice since it's canon and easy to get going from examples. The Little Berlin site is pretty basic, so I just needed to make a "Holy Grail" layout in Flexbox, and spent time getting this set up. I got a good approximation, showed Pete.
+
+Still to come: some of the rendered pages using my parser get messed up and don't export nor display error message. I'm guessing it's happening on pages where the description text incorporates forbidden characters possibly, like pipe, extra dots, quotes, commas. Will need to come back and verify and correct this. *(Update: correct! fixed.)*
+
+Links:
+
+[2 Ways to Create the Holy Grail Layout with Flexbox](https://www.developerdrive.com/holy-grail-layout-flexbox/) (Developer Drive)  
+[SimplyStatic static site generator from Wordpress](https://wordpress.org/plugins/simply-static/#description)
+## 2021-06-08
+
+Some notes on using wget on a domain to download images:
+
+```
+wget -nd -r -A jpeg,jpg,bmp,gif,png --level=inf https://domain.com
+```
+
+This uses wget to download all images recursively through infinite levels of sub-directories and save them all into the single folder. At some point it seemed to get stuck (when it got to 3880 downloaded images) so I re-ran the command with the -c flag (continue), which allows it to check headers of previous files.
+
+Next I used Windows software to brute-force download every public photo from Space 1027 account on one of the platforms due to them not having access to that account anymore. When so many people organize a space, who holds the passwords? How do you manage them? Not an easy thing for many small businesses to handle, much less a small no-profit artist-run collective.
+
+Then Caleb and I reviewed some of our Experimental Archive Space designs.
+
+Links:
+
+[Machine Project Guide to Planning and Curating Events](https://machineproject.com/build/engine/wp-content/uploads/2018/01/Machine_Curating.pdf) (Machine Project, PDF)  
+[Queer Archive Work](https://queer.archive.work/)  
+[Artists Space image archive](https://images.artistsspace.org/)
+[Babycastles: Scrape-The-Internet-For-Our-Archives](https://github.com/babycastles/Scrape-The-Internet-For-Our-Archives) (GitHub repo)   
