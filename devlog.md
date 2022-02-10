@@ -17,7 +17,7 @@ Questions:
 
 ## 2021-12-29
 
-This week I looked at CMS options for static sites. I didn't find much. I lean away from Wordpress and most other CMS because they're PHP and dynamic, opening them up to being hacked, requiring constant upgrade cycles and the complications of competing plugins. On the other hand A CMS allows non-coders to create and edit a site, so it would be nice to find something like this I could recommend to less-techinical artist spaces. One option I looked at are Wordpress -> static site output generators. The simplest and complete is SimplyStatic but it needs a $100 PRO annual account for the features I'd want, and it's not open source.
+This week I looked at Content Management Systems (CMS) options for static sites. I didn't find much. I lean away from Wordpress and most other CMS because they're PHP and dynamic, opening them up to being hacked, requiring constant upgrade cycles and the complications of competing plugins. On the other hand a CMS allows non-coders to create and edit a site, so it would be nice to find something like this I could recommend to less-techinical artist spaces. One option I looked at are Wordpress -> static site output generators. The simplest and complete is SimplyStatic but it needs a $100 PRO annual account for the features I'd want, and it's not open source.
 
 Today I worked with Pete, a past organizer at Little Berlin (along with me and many others). He used OctoParse to grab the text content from all events, members and press pages and convert them to spreadsheets that he put in Google Drive. Spreadsheet files, such as from Google sheets or Excel or open source alternatives like Etherpad can be easily exported as CSV data files. I built a parser in node.js, using csv-parse and the built-in fs filesystem packages to ingest the events.csv file and then render out separate html pages for each separate event. I inject the basic html tags around these so the rendered page is html5.
 
@@ -41,7 +41,7 @@ wget -nd -r -A jpeg,jpg,bmp,gif,png --level=inf https://domain.com
 
 This uses wget to download all images recursively through infinite levels of sub-directories and save them all into the single folder. At some point it seemed to get stuck (when it got to 3880 downloaded images) so I re-ran the command with the -c flag (continue), which allows it to check headers of previous files.
 
-Next I used Windows software to brute-force download every public photo from Space 1027 account on one of the platforms due to them not having access to that account anymore. When so many people organize a space, who holds the passwords? How do you manage them? Not an easy thing for many small businesses to handle, much less a small no-profit artist-run collective.
+Next I used Windows software to brute-force download every public photo from Space 1026 account on one of the platforms due to them not having access to that account anymore. When so many people organize a space, who holds the passwords? How do you manage them? Not an easy thing for many small businesses to handle, much less a small no-profit artist-run collective.
 
 Then Caleb and I reviewed some of our Experimental Archive Space designs.
 
@@ -49,5 +49,5 @@ Links:
 
 [Machine Project Guide to Planning and Curating Events](https://machineproject.com/build/engine/wp-content/uploads/2018/01/Machine_Curating.pdf) (Machine Project, PDF)  
 [Queer Archive Work](https://queer.archive.work/)  
-[Artists Space image archive](https://images.artistsspace.org/)
+[Artists Space image archive](https://images.artistsspace.org/)  
 [Babycastles: Scrape-The-Internet-For-Our-Archives](https://github.com/babycastles/Scrape-The-Internet-For-Our-Archives) (GitHub repo)   
