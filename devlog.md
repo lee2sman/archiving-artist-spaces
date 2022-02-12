@@ -20,21 +20,21 @@ I loved reading through the short term, medium term and longterm goals listed by
 * institute a system for processing backlogged items
 * create manuals for communicating appropriate handling of materials
 * collaborative emergency response planning with neighboring archives in the event of a localized disaster
-* physical supplies and maintenance for the psace and physical preservation
+* physical supplies and maintenance for the space and physical preservation
 
 Some questions for LACA:
 * what practices can a space follow to ensure longterm protection of their creative activities?
-* what kinds of institutions might they want to be in contact with about caretaking or archiving their work?
+* what kinds of institutions might a space outside of LA want to be in contact with about caretaking or archiving their work?
 * is it important to print out web-based material (press releases, posts, exhibition pages, emails) for archiving?
 * are you concerned about photocopy paper degrading?
 * how do you decide which materials from an artist space to preserve?
 
-I started thinking about the shape that the toolkit I build for spaces interested in self-preservation archiving. Here's some questions that can go in the 'assessment' / how-to document:
+I started thinking about the contents of the toolkit I will build for spaces interested in self-preservation archiving. Here's some questions that can go in the 'assessment' / how-to document:
 
-* assess what you alerady have 
-* what materials are out 'there' (e.g. photo documentation of performances, instagram posts...)
+* what kinds of materials exist (e.g. photo documentation of performances, instagram posts...)
 * what should be saved? how will you decide?
-* where is 'the stuff?' who has access to it? how can you get it and store it?
+* which of this do you already have?
+* what materials are out 'there' that you need help accessing? how can you gain access to preserve it?
 
 Some items I should put together:
 * mission
