@@ -1,10 +1,61 @@
 # Devlog for Archiving Artist Spaces
 
-### 2022-02-06
+### 2022-02-09
 
-Took a hike in Griffith Park with Brianna, Nina, Don, Gu. Spoke with Don about [Elevator Mondays](https://www.instagram.com/elevatormondays/), his former DIY space in Pico Union. I used to visit when I lived in LA. I talked about my project and spoke about the generative zine-making part. He designed Elevator Mondays/Elevator Book in 2020: "The 314 page book features over 150 artists across 20+ exhibitions, images of exhibition documentation are combined with studio visit snap shots and personal images of friends, hikes, and dogs...there are lots of dogs in this book." We made plans to meet up again so I can check out the hand made artist books and look at my generative zine-making software. I'm also going to meet up with Ceci and looking forward to talking about these issues with GAS, and Eva at Coaxial, and LACA and Human Resources.
+I spent the afternoon today in the stacks of Los Angeles Contemporary Archive (LACA), meeting with the director Hailey, and going through various books and collections of files. LACA identifies as an "artist-run archive" and a non-circulating library "in which creative processes are recorded and preserved." 
+
+> The Archive houses and catalogues art-related objects, with a special focus on underexposed artistic modes of expression and ephemeral materials. The Archive includes studio and performance ephemera, artists' writings, audio-visual recordigs, digital media files and institutional archives of artist-run spaces.
+
+LACA has a great bound binder with documents about its purpose, collections, intentions, mission, as well as short, medium and long term planning. I found it really helpful to go through the whole thing, as it prompted me to consider lots of questions to consider while working on this project and producing a useful toolkit and tools for archiving artist-run spaces digitally.
+
+Here's an example of the kinds of content I found in the archival storage box of Human Resources (artist-run space in LA):
+* binders with bills, paid or unopened
+* printed press releases, exhibition checklists, art statements
+* gallery visitor sign-in sheets with individually written names and emails
+* exhibition proposal letters sent to the director
+* rejected grant letters written by Human Resources
+
+I loved reading through the short term, medium term and longterm goals listed by LACA. Some items from 'medium term':
+
+* institute a system for processing backlogged items
+* create manuals for communicating appropriate handling of materials
+* collaborative emergency response planning with neighboring archives in the event of a localized disaster
+* physical supplies and maintenance for the psace and physical preservation
+
+Some questions for LACA:
+* what practices can a space follow to ensure longterm protection of their creative activities?
+* what kinds of institutions might they want to be in contact with about caretaking or archiving their work?
+* is it important to print out web-based material (press releases, posts, exhibition pages, emails) for archiving?
+* are you concerned about photocopy paper degrading?
+* how do you decide which materials from an artist space to preserve?
+
+I started thinking about the shape that the toolkit I build for spaces interested in self-preservation archiving. Here's some questions that can go in the 'assessment' / how-to document:
+
+* assess what you alerady have 
+* what materials are out 'there' (e.g. photo documentation of performances, instagram posts...)
+* what should be saved? how will you decide?
+* where is 'the stuff?' who has access to it? how can you get it and store it?
+
+Some items I should put together:
+* mission
+* collections - what do we preserve?
+* programs - trainings, what else?
+* I'll want to put together a consent/oral history intake form. 
+
+While looking at all of these physical artifacts and books today I realized I need to clarify how what I'm working on (archiving digital collections) relates to physical archives. I probably should have recomendations for groups wishing to donate physical artifacts. 
 
 Links:
+
+[Los Angeles Contemporary Archive](http://lacarchive.com)
+[Significance 2.0: A Guide to Assessing the Significance of Collections](https://www.arts.gov.au/sites/default/files/significance-2.0.pdf?acsf_files_redirect) (PDF, Collections Council of Australia)
+
+### 2022-02-06
+
+Took a hike in Griffith Park with Brianna, Nina, Don, Gu. Spoke with Don about Elevator Mondays, his former DIY space in Pico Union. I used to visit when I lived in LA. I talked about my project and spoke about the generative zine-making part. He designed Elevator Mondays/Elevator Book in 2020: "The 314 page book features over 150 artists across 20+ exhibitions, images of exhibition documentation are combined with studio visit snap shots and personal images of friends, hikes, and dogs...there are lots of dogs in this book." We made plans to meet up again so I can check out the hand made artist books and look at my generative zine-making software. I'm also going to meet up with Ceci and looking forward to talking about these issues with GAS, and Eva at Coaxial, and LACA and Human Resources.
+
+Links:
+
+[Elevator Mondays](https://www.instagram.com/elevatormondays/)
 
 [Car, shed ... elevator? The Los Angeles art spaces proving smaller is better](https://www.theguardian.com/artanddesign/2017/jun/30/los-angeles-alternative-art-galleries-gallery1993) (The Guardian, 2017)
 
@@ -15,7 +66,7 @@ Questions:
 * What are we including? missing? leaving out? (beginning to answer: 'archived' frozen or cloned websites, social media images, oral history.; video recordings, physical media; those that didn't know or want to participate)
 * What is the goal? (to build archives and tools to attempt to capture some part of the artist creative and intellectual output and the community that develops out of these spaces. to be caretakers and share these archives for future audiences / generations. to build awareness of archiving needs and tools that artist-run communities can use.)
 
-## 2021-12-29
+### 2021-12-29
 
 This week I looked at Content Management Systems (CMS) options for static sites. I didn't find much. I lean away from Wordpress and most other CMS because they're PHP and dynamic, opening them up to being hacked, requiring constant upgrade cycles and the complications of competing plugins. On the other hand a CMS allows non-coders to create and edit a site, so it would be nice to find something like this I could recommend to less-techinical artist spaces. One option I looked at are Wordpress -> static site output generators. The simplest and complete is SimplyStatic but it needs a $100 PRO annual account for the features I'd want, and it's not open source.
 
