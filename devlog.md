@@ -46,7 +46,7 @@ While looking at all of these physical artifacts and books today I realized I ne
 
 Links:
 
-[Los Angeles Contemporary Archive](http://lacarchive.com)
+[Los Angeles Contemporary Archive](http://lacarchive.com)  
 [Significance 2.0: A Guide to Assessing the Significance of Collections](https://www.arts.gov.au/sites/default/files/significance-2.0.pdf?acsf_files_redirect) (PDF, Collections Council of Australia)
 
 ### 2022-02-06
