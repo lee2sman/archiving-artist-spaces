@@ -44,6 +44,8 @@ Some items I should put together:
 
 While looking at all of these physical artifacts and books today I realized I need to clarify how what I'm working on (archiving digital collections) relates to physical archives. I probably should have recomendations for groups wishing to donate physical artifacts. 
 
+LACA itself needs some help upgrading its DRUPAL. It's been busy working on its physical space and archiving items and now needs some help (likely financial and technical) to upgrade the backend of its web presence, and then later likely modernize its front end. I shared the concept of using 'boring technology'. 
+
 Links:
 
 [Los Angeles Contemporary Archive](http://lacarchive.com)  
