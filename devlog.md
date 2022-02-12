@@ -2,6 +2,8 @@
 
 ### 2022-02-09
 
+Learning from LACA:
+
 I spent the afternoon today in the stacks of Los Angeles Contemporary Archive (LACA), meeting with the director Hailey, and going through various books and collections of files. LACA identifies as an "artist-run archive" and a non-circulating library "in which creative processes are recorded and preserved." 
 
 > The Archive houses and catalogues art-related objects, with a special focus on underexposed artistic modes of expression and ephemeral materials. The Archive includes studio and performance ephemera, artists' writings, audio-visual recordigs, digital media files and institutional archives of artist-run spaces.
@@ -44,7 +46,11 @@ Some items I should put together:
 
 While looking at all of these physical artifacts and books today I realized I need to clarify how what I'm working on (archiving digital collections) relates to physical archives. I probably should have recomendations for groups wishing to donate physical artifacts. 
 
-LACA itself needs some help upgrading its DRUPAL. It's been busy working on its physical space and archiving items and now needs some help (likely financial and technical) to upgrade the backend of its web presence, and then later likely modernize its front end. I shared the concept of using 'boring technology'. 
+LACA itself needs some help upgrading its DRUPAL. It's been busy working on its physical space and archiving items and now needs some help (likely financial and technical) to upgrade the backend of its web presence, and then later likely modernize its front end. I shared the concept of using 'boring technology', tried and true technology that has been used for a long time and will likely continue to be used and maintained.
+
+One last thing to mention: many of the collections coming in to lACA are donated without any explanation or context. But over time it's unclear what items are or how they relate to a space or artist. This is similar to how I've found lots of photos without metadata; it's unclear the subject, what year or person it relates to, or the story of what we're seeing. Collecting this kind of info may be difficult and I'll have to think through ways to help people create contextual information.
+
+Many of the archival books relating to artist-run spaces I reviewed consisted primarily of photo documentation, with a few essays or interviews at the end. Some others were roganized differently, with receipts or emails short welcome message., or maybe a filled out new member/application form from each participant. Increasingly, I think in addition to these web archives having a physical book is important as well. It can find different audiences as it can be more easily shared. It can act as an intentional mini-archive of sorts, displaying items or people or collections or artifacts it deems important and providing context. This is also prompting me to think about my potential creation of this kind of book layout software that can help with this.
 
 Links:
 
