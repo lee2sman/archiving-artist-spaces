@@ -1,6 +1,38 @@
 # Devlog for Archiving Artist Spaces
 
-### 2022-02-09
+### 2022-02-12
+
+There was an article in NPR today about archiving artwork from the Black Lives Matter protest on the fence that stood between The White House and Lafayette Park during 2020 protests.
+
+The fence stood for 6 months and was a site that accumulated signs, artwork, scraps, and messages. In the article it describes a confluence of factors where both the participants and supporters of the protest (and the fence monument and artifacts) recognized the worth and value of each individual and the collective material on that fence; as well, archivists worked with the activists to preserve these pieces, which are now being displayed online and the physical artifacts will be preserved as well.
+
+Over 800 signs were saved from the fence. It's really clear how much these kinds of archival projects can be communal, shared caretaking.
+
+> The signs are being housed in a storage unit in Washington, D.C., as they await to be scanned by archivists at Baltimore's Enoch Pratt Free Library, a joint project with the D.C. Public Library. 
+
+A collection of the signs was exhibited to mark the 100th anniversary of the Tulsa race massacre. Howard University acquired some of the signs. Some other museums expressed interest in owning pieces as well once all the items have been scanned (when I look today I count only 37 items scanned). They have still to decide how to break up the items and where they should go after. 
+
+Looking at the metadata for each individual item I see Title, Date Created/Published, Medium, Summary, Reproduction Number, Rights Advisory, Call Number, Repository, Notes, Subjects, Format, Collections. 
+
+An excerpt from one item:
+
+> Poster was removed from the Black Lives Matter Memorial Fence, an installation of protest art attached to a chain link fence outside of the White House, Washington, D.C, from June 2020 through January 2021, responding to the murder of George Floyd on May 25, 2020, and other instances of police brutality against African Americans; other issues addressed by posters on the fence include institutional injustices, political protest, frustration and mourning related to COVID-19, and international solidarity.
+> Forms part of: [Posters from the Black Lives Matter Memorial Fence in Washington, D.C.].
+> Gift; Nadine Seiler & Karen Irwin on behalf of the BLM community; 2021; (DLC/PP-2021:011).
+
+I also checked out the George Floyd and Anti-Racist Street Art Archive online. Some phrases that stand out to me on this linked web archive: "Use of images: Images and metadata available in this database are intended for non-commercial educational use only. The intention of this database is to document and analyze street art for scholarship, research, and teaching. Whenever possible we have included the names of artists responsible for creating these works. If you notice any errors or ommisions, please let us know!" The site and works are also licensed CC 4.0 SA.
+
+I'm curious whether Library of Congress might be a good fit for the collections of digital artifacts (and possibly paper/item artifacts) as well from the artist-run archives I'm working with. And lastly, I'm making a note to possibly get in touch with Aliza Leventhal, co-founder of Society of American Archivist's Digital Design Records Taskforce.
+
+Links:
+
+[Artwork from the Black Lives Matter memorial has a new home: the Library of Congress](https://text.npr.org/1080027368)  
+[Black Lives Matter Memorial Fence search on Library of Congress](https://www.loc.gov/pictures/search/?q=black+lives+matter+memorial+fence&st=gallery)  
+[Example item](https://www.loc.gov/pictures/item/2021630016/)  
+[George Floyd and Anti-Racist Street Art Archive](https://georgefloydstreetart.omeka.net/)  
+[Aliza Leventhal at the Society of American Archivists](https://www2.archivists.org/prof-education/faculty/aliza-leventhal)  
+
+### 2022-02-11
 
 Learning from LACA:
 
@@ -46,9 +78,9 @@ Some items I should put together:
 
 While looking at all of these physical artifacts and books today I realized I need to clarify how what I'm working on (archiving digital collections) relates to physical archives. I probably should have recomendations for groups wishing to donate physical artifacts. 
 
-LACA itself needs some help upgrading its DRUPAL. It's been busy working on its physical space and archiving items and now needs some help (likely financial and technical) to upgrade the backend of its web presence, and then later likely modernize its front end. I shared the concept of using 'boring technology', tried and true technology that has been used for a long time and will likely continue to be used and maintained.
+LACA itself needs some help upgrading its Drupal. It's been busy working on its physical space and archiving items and now needs some help (likely financial and technical) to upgrade the backend of its web presence, and then later likely modernize its front end. I shared the concept of using 'boring technology', tried and true technology that has been used for a long time and will likely continue to be used and maintained.
 
-One last thing to mention: many of the collections coming in to lACA are donated without any explanation or context. But over time it's unclear what items are or how they relate to a space or artist. This is similar to how I've found lots of photos without metadata; it's unclear the subject, what year or person it relates to, or the story of what we're seeing. Collecting this kind of info may be difficult and I'll have to think through ways to help people create contextual information.
+One last thing to mention: many of the collections coming in to LACA are donated without any explanation or context. But over time it's unclear what items are or how they relate to a space or artist. This is similar to how I've found lots of photos without metadata; it's unclear the subject, what year or person it relates to, or the story of what we're seeing. Collecting this kind of info may be difficult and I'll have to think through ways to help people create contextual information.
 
 Many of the archival books relating to artist-run spaces I reviewed consisted primarily of photo documentation, with a few essays or interviews at the end. Some others were roganized differently, with receipts or emails short welcome message., or maybe a filled out new member/application form from each participant. Increasingly, I think in addition to these web archives having a physical book is important as well. It can find different audiences as it can be more easily shared. It can act as an intentional mini-archive of sorts, displaying items or people or collections or artifacts it deems important and providing context. This is also prompting me to think about my potential creation of this kind of book layout software that can help with this.
 
