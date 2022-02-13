@@ -26,11 +26,11 @@ I'm curious whether Library of Congress might be a good fit for the collections 
 
 Links:
 
-[Artwork from the Black Lives Matter memorial has a new home: the Library of Congress](https://text.npr.org/1080027368)  
-[Black Lives Matter Memorial Fence search on Library of Congress](https://www.loc.gov/pictures/search/?q=black+lives+matter+memorial+fence&st=gallery)  
+[Artwork from the Black Lives Matter memorial has a new home: the Library of Congress](https://text.npr.org/1080027368) (NPR)  
+[Black Lives Matter Memorial Fence search](https://www.loc.gov/pictures/search/?q=black+lives+matter+memorial+fence&st=gallery) (Library of Congress)  
 [Example item](https://www.loc.gov/pictures/item/2021630016/)  
 [George Floyd and Anti-Racist Street Art Archive](https://georgefloydstreetart.omeka.net/)  
-[Aliza Leventhal at the Society of American Archivists](https://www2.archivists.org/prof-education/faculty/aliza-leventhal)  
+[Aliza Leventhal on website of The Society of American Archivists](https://www2.archivists.org/prof-education/faculty/aliza-leventhal)  
 
 ### 2022-02-11
 
