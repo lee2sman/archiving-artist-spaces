@@ -1,5 +1,15 @@
 # Devlog for Archiving Artist Spaces
 
+### 2022-02-20
+
+The Digital Preservation Commission is a UK and Ireland company and charity that works to help its members "secure our digital legacy." They host events, a blog, post on social media, video webinars on preservation topics and tools, and a Digital Preservation Handbook. Their extensive handbook, originally created in 2001 and refined in a 2nd edition and updated in phases is licensed Open Government licence v3.0, allowing re-use. It provides a good example for a toolkit, where mine can be aimed more specifically for shoestring artist-run-spaces.
+
+Links:
+
+[DPC's YouTube channel](https://www.youtube.com/channel/UCgCmeMYeF0nfZCRSof6qXug)  
+[Web & Social Media Archiving:' DIY Approaches & Tools and HTTrack](https://www.youtube.com/watch?v=9_Nou5vlabc)  
+[DPC Digital Preservation Handbook](https://www.dpconline.org/handbook/getting-started)  
+
 ### 2022-02-12
 
 There was an article in NPR today about archiving artwork from the Black Lives Matter protest on the fence that stood between The White House and Lafayette Park during 2020 protests.
