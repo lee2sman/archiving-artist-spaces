@@ -2,13 +2,20 @@
 
 ### 2022-02-20
 
+Some notes on two things I reviewed today:
+
 The Digital Preservation Commission is a UK and Ireland company and charity that works to help its members "secure our digital legacy." They host events, a blog, post on social media, video webinars on preservation topics and tools, and a Digital Preservation Handbook. Their extensive handbook, originally created in 2001 and refined in a 2nd edition and updated in phases is licensed Open Government licence v3.0, allowing re-use. It provides a good example for a toolkit, where mine can be aimed more specifically for shoestring artist-run-spaces.
+
+Secondly, Devine posted Digital-Preservation Proposals published as part of a 20-year old article from MIT's Technology Review on Data Extinction. They list 4 methods of digital preservation: migration, emulation, encapsulation, and a "universal virtual computer."
+
+> “People count on libraries to archive human creativity,” Abby Smith says. “It’s important for people to know, though, that libraries are at a loss about how to solve this problem.” When computer users are saving documents or images, they don’t think twice about making them accessible to future generations, she says. “They need to.”
 
 Links:
 
 [DPC's YouTube channel](https://www.youtube.com/channel/UCgCmeMYeF0nfZCRSof6qXug)  
 [Web & Social Media Archiving:' DIY Approaches & Tools and HTTrack](https://www.youtube.com/watch?v=9_Nou5vlabc)  
 [DPC Digital Preservation Handbook](https://www.dpconline.org/handbook/getting-started)  
+[Data Extinction](https://www.technologyreview.com/2002/10/01/234717/data-extinction/) (MIT Technology Review)  
 
 ### 2022-02-12
 
