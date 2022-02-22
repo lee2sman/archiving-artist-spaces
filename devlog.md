@@ -1,5 +1,24 @@
 # Devlog for Archiving Artist Spaces
 
+### 2022-02-21
+
+Met up with a friend from grad school today. He runs a company that creates archives of artwork documentation online for individual artists and institutions. It's a commercial service with yearly charges. I'm trying to do somewhat similar things, with some additional services, for no money. It reminds me of that extended metaphor about operating systems as cars from Neal Stephenson's long-in-the-tooth 'In the Beginning... Was the Command Line'. 
+
+> Linux, which is right next door, and which is not a business at all. It's a bunch of RVs, yurts, tepees, and geodesic domes set up in a field and organized by consensus. The people who live there are making tanks. These are not old-fashioned, cast-iron Soviet tanks; these are more like the M1 tanks of the U.S. Army, made of space-age materials and jammed with sophisticated technology from one end to the other. But they are better than Army tanks. They've been modified in such a way that they never, ever break down, are light and maneuverable enough to use on ordinary streets, and use no more fuel than a subcompact car. These tanks are being cranked out, on the spot, at a terrific pace, and a vast number of them are lined up along the edge of the road with keys in the ignition. Anyone who wants can simply climb into one and drive it away for free. 
+
+>  The group giving away the free tanks only stays alive because it is staffed by volunteers, who are lined up at the edge of the street with bullhorns, trying to draw customers' attention to this incredible situation. A typical conversation goes something like this:
+
+> Hacker with bullhorn: "Save your money! Accept one of our free tanks! It is invulnerable, and can drive across rocks and swamps at ninety miles an hour while getting a hundred miles to the gallon!"
+> Prospective station wagon buyer: "I know what you say is true...but...er...I don't know how to maintain a tank!"
+> Bullhorn: "You don't know how to maintain a station wagon either!"
+> Buyer: "But this dealership has mechanics on staff. If something goes wrong with my station wagon, I can take a day off work, bring it here, and pay them to work on it while I sit in the waiting room for hours, listening to elevator music."
+> Bullhorn: "But if you accept one of our free tanks we will send volunteers to your house to fix it for free while you sleep!"
+> Buyer: "Stay away from my house, you freak!"
+> Bullhorn: "But..."
+> Buyer: "Can't you see that everyone is buying station wagons?" 
+
+Aside from the obviously mistaken "They’ve been modified in such a way that they never, ever break down" statement, it's a great and hilarious metaphor.
+
 ### 2022-02-20
 
 Some notes on two things I reviewed today:
