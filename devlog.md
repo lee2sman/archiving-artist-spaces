@@ -1,5 +1,15 @@
 # Devlog for Archiving Artist Spaces
 
+### 2022-04-26
+
+I'm part of the Flux Factory collective, and we'll be in residency on Governor's Island beginning now through the fall. That's a long time! Along with Flux Factory (in building 404), a large number of organizations, community groups, DIY art spaces and others have temporary or more permanent space on the island. For example, Flux Factory had use of a building last summer for 2 months, and this time we've been bumped up to have the space for at least 7 months. As I and many other artists are used to, the building is rundown. Former officers' family quarters, they have no utilities. We must bring in water and access portable restrooms offsite on another part of the island. The walls have lead paint. We brought in folding chairs and plastic folding tables, our tech and audio equipment. We set up shop onsite and use the building for studio space, meetings, performances, hang-outs, and exhibits. We'll have open studios many weekends, and host a continuation of Flux's longstanding picnic and artist presentations monthly event, Flux Thursdays, though on the island we'll do "Flux Saturdays". This will be a staging space for me to work on the Archiving Artist Spaces project, both specifically about and with Flux Factory in specific, and with other artist-run spaces located on the island as well. It's also a good meeting space for other organizations not located on the island, as many artists come through. I'll make some organizing and info-gathering materials and zines, conduct mini versions of the trainings, and meet new contacts and collaborators. First order of business will be to make an Archiving Artist Spaces website, a placeholder, and then to print handouts/flyres Calling For Artist-Run Spaces. I may build a little library space for zines in nook at some point, and hold workshops in the summer or fall.
+
+### 2022-04-20
+
+In the end of February I suffered a serious concussion and was unable to work for a month and a half.
+
+I wasn't able to do much of anything on the project, but I did gather some related zines and talk to a few folks involved in archival work. 
+
 ### 2022-02-21
 
 Met up with a friend from grad school today. He runs a company that creates archives of artwork documentation online for individual artists and institutions. It's a commercial service with yearly charges. I'm trying to do somewhat similar things, with some additional services, for no money. It reminds me of that extended metaphor about operating systems as cars from Neal Stephenson's long-in-the-tooth 'In the Beginning... Was the Command Line'. 
@@ -158,7 +168,8 @@ Links:
 
 [2 Ways to Create the Holy Grail Layout with Flexbox](https://www.developerdrive.com/holy-grail-layout-flexbox/) (Developer Drive)  
 [SimplyStatic static site generator from Wordpress](https://wordpress.org/plugins/simply-static/#description)
-## 2021-06-08
+
+### 2021-06-08
 
 Some notes on using wget on a domain to download images:
 
