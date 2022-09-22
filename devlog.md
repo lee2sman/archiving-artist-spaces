@@ -1,5 +1,46 @@
 # Devlog for Archiving Artist Spaces
 
+### 2022-09-21
+
+Today I am tuning into Publishing Partyline, a series of talks online organized on Varia about web-to-print design practices. For Experimental Archive Space we are using Bindery.js to mock up and print the zines, but found Bindery a bit brittle to work with. I'd really like an easy-to-use web-to-print workflow so I can build-in easy zine/catalog-making software for art spaces so they can have digital PDF and print PDF archives.
+
+[Bindery.js](http://bindery.info/)  
+[Publishing PartyLine](https://varia.zone/en/publishing-partyline.html)  
+[Open Source Publishing](http://osp.kitchen/)  
+[paged.js](https://pagedjs.org/)  
+
+### 2022-09-20
+
+Attended talk at NYU Engelberg Center with Brewster Kahle talking about the Internet Archive's legal case against 4 publishing companies who are suing them. Kahle talked about a canadian term Technological Neutraility - what you can do with previous-generation technology (e.g. a book) you should be able to do with present-day technology (e-books - buy, sell, loan, etc). Afterwards I talked to Brewster about the Archiving Artist Spaces project. He was extremely supportive and gave me some contacts at his organization to get in touch with and some suggestions to look into their API and to help other groups learn about and use ArchiveIt.
+
+### 2022-09-07
+
+Relapse of concussion symptoms. Ongoing dizziness, pain, headache, etc issues has made this project go at least half as slow as the pace I'd like it to go since computer work is harder. 
+
+### 2022-09-06
+
+Ongoing work on Gas archive
+
+### 2022-08-11
+
+Recorded an initial audio interview with about 10 members of Flux Factory in Aarhus, Denmark. 
+
+### 2022-07-21
+
+Pete and I completed an initial draft of the Little Berlin archive.
+
+### 2022-06-30
+
+Discuss Gas archive.
+
+### 2022-06-15
+
+Mostly recovered from concussion now. Able to code and work again. Met with Pete last week to check in on Little Berlin web archiving project. Trying to get a draft completed this week. Got all events page to render text if available. This process seems overly complicated and not a precise copy. Using a webrecorder archiver might be a better fit for most use cases for minified / obscured site code. Will investigate.
+
+Links:  
+
+[Library of Congress Citizen DJ project](https://citizen-dj.labs.loc.gov/about/)
+
 ### 2022-04-30
 
 Last night I watched [Dawson City: Frozen Time](https://en.wikipedia.org/wiki/Dawson_City:_Frozen_Time), an incredible and gorgeous documentary about the history of the gold rush in the Alaskan Yukon and the discovery of 533 lost silent films. The Library of Congress says 75% of all silent films have been lost forever; in other words, no known reels are thought to still exist. The Scorsese Foundation says "half of all American films made before 1950 and over 90% of films made before 1929 are lost forever." This documentary covers the history of early silent film, how it was made, and the unique characteristics of life in this frontier town that led to films arriving years after their release, to be played in the town theater. Because silver nitrate film was so flammable, studios didn't want them back, so they were stored and then eventually dumped, some down the river, and others in a basement and then an old frozen pool. The main cinema burned down (twice I believe). And many large historical film archives also were destroyed in fires as a result of the flammable silver nitrate films. The documentary told their story but also presented the films as an incomplete document. It used modern documentary technique but also classic silent film techniques with a very powerful soundtrack, inter titles, and scanned photographs. Of course I couldn't help but also be reminded of the loss of digital files and documentation of DIY spaces and of course other histories and communities.
