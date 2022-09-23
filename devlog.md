@@ -1,5 +1,104 @@
 # Devlog for Archiving Artist Spaces
 
+### 2022-09-23
+
+Met with Caleb to review GAS design and the collected archive assets. We continued discussion on designing an archive for longevity. We've pretty much ruled out fast-moving frameworks but we're still thinking we may use Jekyll. We have lots of experience with it. I've used it for about 5 years or so, and the code I wrote back then still works to power my blog. This will let us mostly write html/css, with templating. For the modular stuff we'll likely use json and call it with Liquid. Our goal will be for the site last at least 5 years this way, in a framework that we can review and should be able to work with for years. We'll also organize all the assets in a hierachy of folders with text files.
+
+
+I've been doing more reading, thinking and brainstorming about permacomputing and creating resilient archives. Caleb and I started talking last week about building a physical computer that could serve as a device to browse an archive. Partly inspired by Community Memory, this would be a computer with monitor and keyboard, and not intended as web software, but as an OS with minimal software to view an archive of an art space (we'll test with Flux Factory) and even perhaps to allow entry, which could be an uploaded station or as simple as allowing people to write in their own memories, experiences as part of their art space/specific art community.
+
+```
+                 /\
+                /  \
+               /    \
+              /      \
+             /  Our   \
+            /  custom  \
+           /  designed  \ 
+	  / GUI software \
+         /________________\
+        /                  \
+       / CLI, TUI programs  \
+      /______________________\
+     /                        \
+    / The OS, builtin programs \
+   /____________________________\
+  /                              \
+ / Text files, images, in folders \
+/__________________________________\
+```
+
+While command line software (and simple text files and images) could be seen as the most simple and less brittle software, Caleb spoke about how the command line is offputting, not immediately compelling, perhaps even scary to many people. I posted on Mastodon about trying to create something resilient and perhaps needing things to be CLI for that reason but Devine responded and asked why not create both. I think that's a great idea. While we could code our own GUI software to view an archive to be as longterm as possible, we acknowledge it may still fail (dependencies not available, hardware changes, operating system changes, etc etc), so we could have a fallback to simpler systems. If our own software fails, what's below it? How can things still be used/seen? I showed Caleb my drawing of a pyramid. At the bottom is text files and images and folders, the 'meat' of an archive. The level above is the operating system and built-in programs, ways to display and view these files, agnostic by system. A level above this is our simple interactive command line program, and perhaps there is an interactive Text User Interface option. A simpler CLI version would be command line with just number input at the prompt. On top would be our custom GUI software, maybe a website, electron app (seems like it would break fast though!), a Lua program, TCL, or something else.
+
+Simplest Text User Interface (not a real mock-up, just a tiny flavor of what things could look like):
+
+```
+Flux Archive 0.1
+
+  ________
+ /        \___________________________
+/                                     |
+|                                     |
+| 1) View the archive directory...    |
+| 2) See a random archive page        |
+| 3) See a random archive image       |
+| >4) Read the book of memories       |
+| 5) Enter your own memory            |
+| 6) Quit                             |
+| ____________________________________|
+```
+
+Simplest Command Line Interface:
+
+```
+Flux Archive 0.1
+----------------
+1) View the archive directory... 
+2) See a random archive page
+3) See a random archive image
+4) Read the book of memories  
+5) Enter your own memory    
+
+Selection:
+>
+```
+
+Again, these are just minimal examples, not actually well-designed yet.
+
+The simplest level in terms of complexity, is just a collection of folders and text files. This could be 'spit out' and read/the 'backend' of our CLI, TUI and GUI programs.
+
+```
+Flux_Archive/
+  what-is-this.txt
+  how-to-use.txt
+  credits.txt
+years/
+   2022/
+   events/
+     exhibit-xxx-yyy/
+        description.txt
+        photos/
+	   1.jpg
+	   2.jpg
+     flux-saturdays/
+    2021/
+    2020/
+    .
+    .
+    .
+memories/
+   aaaaaaaas_memories.txt
+   Lee_Tusman_memories.txt
+```
+
+Again, this is an overly simplified mockup.
+
+We spent some time looking into the Internet Archive's Archive-It service, which Brewster said is something he'd love for us to check out, use, and encourage other arts orgs to use. It has many more options than the plain Wayback Machine, including many ways to input metadata, give us a frontend of sorts for the project, and has APIs. This is where we could build software specific to our arts communities we are trying to serve. As simple as customized form pages for input and uploading.
+
+We also checked out the captures of our Jekyll site for our podcast Artists and Hackers, which was captured by Archive Team. We saw that the JavaScript modules were captured and did work in the archive of our site, albeit slowly, except the audio (which we host externally on podbean) was not saved. Whether external content could be configured and captured with Archive-It is something we'll have to look into (we hope/suspect yes).
+
+For our GAS archive we are thinking we'll host our site content and images all together on a server rather than on an external IMG CDN though we'll look into the options. We spent time talking about organizing our data (artist names, exhibits, artwork lists, statements, etc etc) and considered JSON and SQLite and looked into some SQLite frontend code options. We'll likely stick with JSON since it's pretty standard and we know it and our 'database' will be relatively small.
+
 ### 2022-09-21
 
 Today I am tuning into Publishing Partyline, a series of talks online organized on Varia about web-to-print design practices. For Experimental Archive Space we are using Bindery.js to mock up and print the zines, but found Bindery a bit brittle to work with. I'd really like an easy-to-use web-to-print workflow so I can build-in easy zine/catalog-making software for art spaces so they can have digital PDF and print PDF archives.
