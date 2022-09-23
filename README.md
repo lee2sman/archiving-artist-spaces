@@ -1,6 +1,4 @@
-# archiving-artist-spaces
-
-## Artist-Run Spaces Archiving Project
+# Archiving Artist-Run Spaces 
 
 An archival project to preserve images, oral history and activity of precarious artist-run spaces
 
@@ -18,7 +16,7 @@ Lee Tusman is an educator, researcher, programmer and artist-organizer at artist
 
 ## Devlog
 
-[devlog - my activity development log](devlog.md)
+[Activity development log](devlog.md)
 
 ## In Progress and Next Steps
 
@@ -30,7 +28,7 @@ Lee Tusman is an educator, researcher, programmer and artist-organizer at artist
 
 ### Tools
 
-[tools](tools.md)
+[Tools list](tools.md)
 
 ### Links
 
