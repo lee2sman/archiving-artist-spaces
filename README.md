@@ -10,9 +10,11 @@ An archival project to preserve images, oral history and activity of precarious 
 
 Artist-run spaces, also called DIY Spaces or Alternative Spaces are creative communities operating on the margins of cultural institutions. They exist in a precarious space, currently affected by the economy, pandemic, and gentrification. Many shuttered during the pandemic. Others have struggled to make rent.
 
-While artist-run communities of earlier eras are documented through photographic prints, video, and publications, these recent communities are primarily promoted and documented online, on closed proprietary platforms, with an emphasis on immediacy but not on long term archiving. The archive of their creative activities are in danger of disappearing in the short term as websites go down, platforms close or change their business plan.
+While artist-run communities of earlier eras are documented through photographic prints, video, and publications, these recent communities are primarily promoted and documented online, on closed proprietary platforms, with an emphasis on immediacy but not on long term archiving. An archive of creative activities are in danger of disappearing as websites go down, platforms close or change their business plan. Even when custom and personal websites are created, there is a danger they could disappear, get hacked, or close down, or browser security and protocols change, causing them to stop working. 
 
-Lee Tusman is an educator, researcher, programmer and artist-organizer at artist-run spaces in New York City. Lee is currently working on a pilot project with DIY artist-run spaces in multiple cities, both current and recently closed during the pandemic, to archive their artistic activity, website, photo archives, based on his experience and programming knowledge. The goal: creating a toolkit and software to create archives of rescued photo documentation and websites, new oral history interviews, and photogrammetry capture.
+Archiving Artist Spaces is a project to build a toolkit for artist-run organizations providing information, training, tools and other resources. In the first iteration, several pilot archives will be set up in collaboration with artist-run spaces in LA, NYC and Philadelphia. Some of these spaces are ongoing while others recently closed during the pandemic.
+
+In the second stage, the Archiving Artist-run Spaces project seeks partnership with institutions concerned with longterm preservation of artist communities and their work to build out longterm preservation systems and caretaking. Partners include physical art archives, digital libraries and public libraries and archives.
 
 ## Devlog
 
