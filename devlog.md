@@ -1,9 +1,42 @@
 # Devlog for Archiving Artist Spaces
 
+
+### 2022-10-08
+
+Caleb and I met online with Eli Mellen, a friend via Mastodon code community. He offered to talk with us about site architecture, about some of our ideas, and to give feedback. It was a generous offer, and extremely helpful. First, he confirmed using a static site generator and not a dynamic server. Secondly, he told us to consider with each of these archive sites/projects, there needs to be a person who is the caretaker. Where does this data archive 'live?'. The most important part is the back of house, where things are archived/preserved if you're really interested in it living in the future.
+
+Eli spoke about letting people work with an archive versus letting people stare at it. The metaphor he used was letting people into the butterfly garden versus pinning butterflies dead and letting people only look at them. In other words, how to make archives more playful, inventive, exploratory, interactive.
+
+Next we talked about the database part. Caleb and I spoke about using JSON to hold our data (artworks, images, names, dates, collections). Eli talked about using sqlite as a database. The database would act as an intermediary layer to more easily manage the data itself. It doesn't need to be a backend. But you could point at a sqllite and your static site generator uses it to generate static files for the website. It gives more options than just using my file directories. If we build in Sqlite we would come up with a database scheme that seems useful for creating metadata and then write a script to jump into the database and export as json. The idea of the database is a tool to massage and edit that is easier than working directly in json. Easier than doing sorts, searches, etc. Tools like jq let us manipulate that json as more than a text file.
+
+We next talked about a basic organizational hierarchy:
+
+```
+Class organization:
+* index view - all the exhibits
+* collection view - a specific exhibit
+* detail view -  an artwork in that exhibit
+```
+
+Next we talked about Jekyll for static site generation. I've used it for half a decade at least. Caleb has put a lot of work into mastering Liquid templating. Eli told us to consider Hugo, which is compiled in Go. It means that you can export a specific binary so if Hugo dissapears you can ship the site with a binary of Go, making a self-contained ecosystem. This is worth consideration, though I don't know if we want to have to relearn new templating language and be stuck with the Go ecosystem. 
+
+When looking at our json template Eli suggested an alteration: having an images array: each individual image will have some data (url, name, photographer, etc) and then an array of type, maybe with multiple types (exhibit, header, etc). One thing worth considering is the IIIF standard, a standard for how to distribute images (and audio and video) in a single specific way. It could give us a way to call any single image and pull it at a few different sizes based on this API. However, he cautioned it's overly complicated because it's a standard and an international body and many museums with their own complex interests participate, and it's not documented well. There are standalone servers that do this, but they are not static so they don't fit our model.
+
+[International Image Interoperability Framework](https://iiif.io) 
+
+I mentioned talking with Brewster Kahle and Eli suggested working with Archive-It may be the best structure if it allows us to host the images from their website-server. Another option is to have images live on our shared server. Some people would suggest a CDN but there are other options because the data becomes more abstracted from us. This is less important for a 'quirky art site.' If you're the Met, yes, maybe think about it. The important thing is to make sure you're not delivering full quality image every time. We can solve some of this in the design itself. 
+
+Internet Archive has the idea of a collection. He suggested our external site as frontend, and then we build a web viewer at a collection and that we host that someplace, and we have a website built off this collection backed off the internet archive data.
+
+In terms of accessibility we should think how to expose the metadata on the page even if it's not visible. Image descriptions: can you automate the building of that? For example: Artist name, name of piece, in this exhibit.
+
+And what's the experience like if a site loads with no images, for screen readers, etc.
+
+If we decide to add a search tool (I think unlikely?), he suggested looking at lunrjs.com, a client-side search, no database needed. Uses data in json. This is a way to add searching and filtering. A powerful tool if you're willing to add client side javascript. It's modeled after solr, which is a beefy java search indexing machine. There are some alternatives to lunr as well.
+
 ### 2022-09-23
 
 Met with Caleb to review GAS design and the collected archive assets. We continued discussion on designing an archive for longevity. We've pretty much ruled out fast-moving frameworks but we're still thinking we may use Jekyll. We have lots of experience with it. I've used it for about 5 years or so, and the code I wrote back then still works to power my blog. This will let us mostly write html/css, with templating. For the modular stuff we'll likely use json and call it with Liquid. Our goal will be for the site last at least 5 years this way, in a framework that we can review and should be able to work with for years. We'll also organize all the assets in a hierachy of folders with text files.
-
 
 I've been doing more reading, thinking and brainstorming about permacomputing and creating resilient archives. Caleb and I started talking last week about building a physical computer that could serve as a device to browse an archive. Partly inspired by Community Memory, this would be a computer with monitor and keyboard, and not intended as web software, but as an OS with minimal software to view an archive of an art space (we'll test with Flux Factory) and even perhaps to allow entry, which could be an uploaded station or as simple as allowing people to write in their own memories, experiences as part of their art space/specific art community.
 
