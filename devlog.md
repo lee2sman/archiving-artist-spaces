@@ -1,5 +1,33 @@
 # Devlog for Archiving Artist Spaces
 
+### 2022-10-18
+
+I want to write a bit more about digital preservation, which I think of as a nascent movement with many possible permutations.
+
+> In 2014 Het Nieuwe Instituut launched New Archive Interpretations, a series of commissions for artists, designers and researchers to examine the influence and impact of the digital archive in relation to its analogue predecessor, the paper archive. Over a two-year period they investigated the challenges and opportunities of digital archives.
+
+> ....This practice-led approach to digital archiving is vital because the characteristics of the digital demand a reconsideration of the material value of digital and digitized documents and their archives through practice and doing. In short, by experimenting we tested the limits and tried to uncover the possibilities and boundaries of digital archiving. In the process, we addressed the authoritative position of archives, the usefulness of open data and openness, and the importance of human presence.
+
+These kinds of digital archiving investigations are important to me, and are informing the work I'm doing now. While the interest in permacomputing seems like a brand new trend, the need to preserve writing and visual materials is timeless, going back centuries. Linking new approaches to past ones helps us see what's new and specific to the time we are in now, but also how it may relate to previous approaches to archiving. When I talk about archiving I am using words like text, images, but what we're really archiving is a particular part of history - trying to preserve, present, contextualize this history through choices we make. 
+
+As part of New Archives Interpretations, an interview "What Kind of Archivist Are You?" was conducted between organizer Annett Dekker and software artist and writer Marloes de Valk and artist and researcher Aymeric Mansoux, who both have a practice that goes back over a decade examining and creating new works dealing with issues of digital preservation. Their project What Remains, with Dave and Amber Griffiths, is an 8-bit videogame about archives and the environment, created to run on the 1985 Nintendo Entertainment System (NES). In the interview What "Kind of Archivist Are You?" they speak about using this old platform, with lots of emulators, with a thriving community 40 years on, and how old cartridges may 'last forever.' When asked about the position of public institutions on how archival systems function they say 
+
+> ...today's difficulty for archival systems to be truly useful is linked to the need to constantly work around their incapacity to make things public. Since the late 90s retro gaming online communities have worked around the law to provide the most resilient and best documented archive of gaming software, as well as fostering the creation of a myriad of non profit organisations, and other types of groups, dedicated to both the preservation and the active use of so-called obsolete hardware. If we can do it from our basement with virtually no financial support, surely public institutions can do it too. 
+
+In another answer they talk about the challenges of digital archiving:
+
+> On the one hand there is the role of keeping information safe long-term, archiving for the future, without too much worry about access. On the other hand there is the approach of online communities that keep the information they value hyper accessible and alive, without focussing on the longevity of the information. Once the community shrinks or loses momentum, the information is no longer maintained and could easily disappear. 
+
+They point to several simultaneous approaches, from individuals or groups that set up their own infrastructure to share books, files and objects, to the conveniences and challenges of working with corporate platforms, to the independent communities that work to free, share, preserve, use and breathe life into the shared works.
+
+By the way, I love the license they use for their interview, the Copypast 1.0 License.
+
+[New Archive Interpretations](https://archiefinterpretaties.hetnieuweinstituut.nl/en/new-archive-interpretations)
+
+[Aymeric Mansoux and Marloes de Valk: What kind of archivist are you?](http://aaaan.net/aymeric-mansoux-and-marloes-de-valk-the-need-to-archive/)
+
+[Copypasta 1.0 License](https://things.bleu255.com/licenses/copypasta.txt)
+
 
 ### 2022-10-08
 
