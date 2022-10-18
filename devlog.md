@@ -2,6 +2,12 @@
 
 ### 2022-10-18
 
+I read this blog post about a speculative idea to have a browser standard for specifying website fidelity. They point out how NPR, CNN, PBS (for example) offer minimal versions of their sites without images and minimal CSS styling. This is great for low-bandwidth usage, for example for folks in rural areas, with minimal connection/speed/bandwidth, during a hurricane for example when one needs to conserver energy. Discussion of this topic of creating low-bandwidth sites is ongoing on the corner of Mastodon I'm on for example, but I see no discussion outside this select community of 'solarpunk' programmer-artists-makers. If we're striving for a future with less consumption, less energy usage, and even 'off-the-grid' networks and reducing consumption then lower bandwidth consumption should be a priority. One of my goals as stated is to make a version of these digital archives that can be consumed at different levels of what I'll now call fidelity: can they work on low-bandwidth, low-consuming browsers and devices/computers  and not just those with the fastest and latest computers and tablets? This works in parallel to creating multiple modes of collecting and presenting these archives: online, as software, as command line programs, and as organized collections of files (text, images, video, audio) that can be reproduced and shared.
+
+[Website Fidelity](https://blog.jim-nielsen.com/2022/website-fidelity/)
+
+### 2022-10-18
+
 I want to write a bit more about digital preservation, which I think of as a nascent movement with many possible permutations.
 
 > In 2014 Het Nieuwe Instituut launched New Archive Interpretations, a series of commissions for artists, designers and researchers to examine the influence and impact of the digital archive in relation to its analogue predecessor, the paper archive. Over a two-year period they investigated the challenges and opportunities of digital archives.
