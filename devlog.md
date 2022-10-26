@@ -4,6 +4,14 @@
 
 Worked with Caleb on json templating and reviewing ideas for manipulating/resizing images using imagemagick.
 
+Going back to my earlier discussion about producing various 'fidelity' output of the archive, I'm bookmarking an idea about creating a build step to produce minimal dithered image copies of all images. These can be used in the option to produce a low-bandwidth archive. I'm brainstorming some possible build outputs based on how intentions for how they can be deployed and viewed/browsed. This isn't at all confirmed but some ideas include:
+* custom web archive - jekyll or js with templates, full images - example: Gas
+* archive 'application' - built with lua/love and compiled. Views with text and images build from folder/structure
+* web 1.0 - just html (from markdown), css, color images
+* gemini -  gemtext, dithered b&w images
+
+This workflow would work along Archive-It.
+
 ### 2022-10-18
 
 I read this blog post about a speculative idea to have a browser standard for specifying website fidelity. They point out how NPR, CNN, PBS (for example) offer minimal versions of their sites without images and minimal CSS styling. This is great for low-bandwidth usage, for example for folks in rural areas, with minimal connection/speed/bandwidth, during a hurricane for example when one needs to conserver energy. Discussion of this topic of creating low-bandwidth sites is ongoing on the corner of Mastodon I'm on for example, but I see no discussion outside this select community of 'solarpunk' programmer-artists-makers. If we're striving for a future with less consumption, less energy usage, and even 'off-the-grid' networks and reducing consumption then lower bandwidth consumption should be a priority. One of my goals as stated is to make a version of these digital archives that can be consumed at different levels of what I'll now call fidelity: can they work on low-bandwidth, low-consuming browsers and devices/computers  and not just those with the fastest and latest computers and tablets? This works in parallel to creating multiple modes of collecting and presenting these archives: online, as software, as command line programs, and as organized collections of files (text, images, video, audio) that can be reproduced and shared.
