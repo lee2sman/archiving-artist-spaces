@@ -1,5 +1,8 @@
 # Devlog for Archiving Artist Spaces
 
+### 2022-10-25
+
+Worked with Caleb on json templating and reviewing ideas for manipulating/resizing images using imagemagick.
 
 ### 2022-10-18
 
