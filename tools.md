@@ -1,5 +1,6 @@
 # Tools
 
+
 This is an in-progress list of tools for archiving artist-run spaces' online activities such as: scraping websites, 'freezing' and preserving facebook and similar closed proprietary platform event pages, and more.
 
 [Archive-It - Internet Archive's institutional tool to backup the website/data of organizations](https://archive-it.org)
@@ -15,3 +16,5 @@ This is an in-progress list of tools for archiving artist-run spaces' online act
 [instagram scraper - CLI python program](https://github.com/arc298/instagram-scraper)
 
 [flickr-scrape by sam levine and others](https://github.com/antiboredom/flickr-scrape)
+
+
