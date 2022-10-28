@@ -4,6 +4,8 @@
 
 Flux Thursday dinner with members of Institute for X visiting us in NYC. They talked about the funding of X, how its precarious, how it works with the city, and how Danish society and culture differs from our US models. One of the things they emphasize was the importance of explaining the value and activities of X when meeting with politicians. How do they make the case and demonstrate what they're doing is essential, important, timely? They printed a large book This is X to document the community, its mission and activities. I'm reminded of earlier discussions with LACA about printed materials, about my choice to make Zine software for our pilot project with 1026, about Coaxial and Elevator Monday's printed books as well. Seems like an important part of the puzzle would be to provide simple (automated if possible) layout software for spaces to make publications, though I don't know how bogged down in this I want to be right away before completing digital archiving activity first.
 
+[This is X book](https://institutforx.dk/publications/this-is-x/)
+
 ### 2022-10-25
 
 Worked with Caleb on json templating and reviewing ideas for manipulating/resizing images using imagemagick.
