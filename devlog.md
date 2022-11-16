@@ -1,5 +1,23 @@
 # Devlog for Archiving Artist Spaces
 
+### 2022-11-15
+
+As we're going deeper into archiving issues of copyright are coming back, and specifically how to archive documentation that originates in online closed platforms, as opposed to images shared with Creative Commons rights for example.
+
+In addition to legal assistance, I'm also looking at how different archives deal with this issue.
+
+First, here's a link to DiscMaster, which is a new experimental 'frontend' of sorts to browse an archive housed on Archive.org
+
+> Experimental website to browse and search vintage computer files from archive.org. Thousands of new files are added daily! Click the links at the top!
+
+[Textfiles.com DiscMaster](http://discmaster.textfiles.com/)
+
+I've long been a fan of UbuWeb and am excited to pick up Duchamp Is My Lawyer by creator/director/webmaster Kenneth Goldsmith.
+
+> In Duchamp Is My Lawyer, Goldsmith tells the history of UbuWeb, explaining the motivations behind its creation and how artistic works are archived, consumed, and distributed online. Based on his own experiences and interviews with a variety of experts, Goldsmith describes how the site navigates issues of copyright and the ways that UbuWeb challenges familiar configurations and histories of the avant-garde. The book also portrays the growth of other “shadow libraries” and includes a section on the artists whose works reflect the aims, aesthetics, and ethos of UbuWeb. Goldsmith concludes by contrasting UbuWeb’s commitment to the free-culture movement and giving access to a wide range of artistic works with today’s gatekeepers of algorithmic culture, such as Netflix, Amazon, and Spotify.
+
+[Duchamp Is My Lawyer: The Polemics, Pragmatics, and Poetics of UbuWeb](http://cup.columbia.edu/book/duchamp-is-my-lawyer/9780231186957)
+
 ### 2022-10-27
 
 Flux Thursday dinner with members of Institute for X visiting us in NYC. They talked about the funding of X, how its precarious, how it works with the city, and how Danish society and culture differs from our US models. One of the things they emphasize was the importance of explaining the value and activities of X when meeting with politicians. How do they make the case and demonstrate what they're doing is essential, important, timely? They printed a large book This is X to document the community, its mission and activities. I'm reminded of earlier discussions with LACA about printed materials, about my choice to make Zine software for our pilot project with 1026, about Coaxial and Elevator Monday's printed books as well. Seems like an important part of the puzzle would be to provide simple (automated if possible) layout software for spaces to make publications, though I don't know how bogged down in this I want to be right away before completing digital archiving activity first.
