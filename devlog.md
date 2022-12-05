@@ -1,5 +1,22 @@
 # Devlog for Archiving Artist Spaces
 
+
+### 2022-12-05
+
+Working on GAS archive. More on that later.
+
+Started on working on new tool to interoperate with my bookmobile library which pulls down articles, runs them through the Readability library to remove cruft (headers, ads, footers, navigation, etc) and then save as an epub or markdown or cleaned up html or with a css theme from my curated selection. My new update can download a list of links, let's say to create a directory on a certain topic. Would be great to combine this with yt-dlp (fork of youtube-dl) and any image scrape tool, at a later date.
+
+The two parts of the suite I'm building: tools to pull, tools to publish/browse/interact. Tools to pull will be CLI and possibly GUI tools to get photos, texts, audio, video. Tools to publish/browse/interact are GUI and CLI tools to make archives of photos and text and media, and software to browse these archives (and ideally to continue adding to them).
+
+My bookmobile software relies on readability-cli and its upstream readability from Mozilla.
+
+I'm using my new in-progress tool to build another example personal archive of artware, interviews, and more on media art and DIY art community organizing, among other subjects.
+
+[Gardenappl's Readable aka readability-cli on GitLab](https://gitlab.com/gardenappl/readability-cli)  
+
+[Mozilla's Readability on GitHub](https://github.com/mozilla/readability)
+
 ### 2022-11-15
 
 As we're going deeper into archiving issues of copyright are coming back, and specifically how to archive documentation that originates in online closed platforms, as opposed to images shared with Creative Commons rights for example.
