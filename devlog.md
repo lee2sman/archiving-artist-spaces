@@ -1,5 +1,20 @@
 # Devlog for Archiving Artist Spaces
 
+### 2023-01-07
+
+Work continues on Gas archive, now with Andrew L helping. He set up Kirby, which we've switched to, in order to make the organizing, backend easier. On the one hand, I think it will be a lot easier than a json database. It has a WYSIWYG CMS running as a local server in the browser. It uses templates and generates info per object (with their own rendered images, sizes, and text file with info to populate the static pages that are rendered). Kirby pops out a static site. Kirby's code is public, and has been maintained for over a decade by a single dev, though it is not open source and each individual site requires a license, currently $105. That and the complexity of setting it up mean it's good for creating our costume archive but I fear the fee, complexity, and lack of open source mean again this isn't a good general tool for non-devs. But due to some of these reasons, namely a sustainable business and static output and good documentation and easier 'database' system, it is a fine choice for this particular archive project.
+
+---
+
+In the past month I pored through Kenneth Goldsmith's Duchamp is my Lawyer: The Polemics, Pragmatics, and Poetics of UbuWeb. He's a great writer, and really lays deeply into the dance of copyright, abandoned works, fair use in the age of the digital reproduction. He's driven by a love for sharing the work, and talks about his 2-decade long UbuWeb project, including it's infrastructure and architecture, how he deals with legal threats and situations. After detailing its history and legal approach he then has some chapters highlighting other DIY digital archives and then makes selections and descriptions of work from the UbuWeb collection.
+
+UbuWeb itself is a product of earlier anthologies and collections: both formal and informal. Vinyl or cassette collections of a history of sound art, torrented mp3 collections of historial sound art, collections of found flyers of 'outsider' visual poetry, the collection of the Aspen magazine 'The multimedia magazine in a box', and the 365 Days project collecting 'cool and strange and often obscure audio selections.' In my mind this parallels how early museums were often built of many individual collectors' cabinet of curiousities collections brought into the same space, a collection of various idiosyncratic collections, as any archive will be.
+
+While reading Duchamp is My Lawyer I thought through some of the parallel ideas with the archives I'm working with: preserving work for others to sift through, and the site architectural and infrastructure challenges to keeping these works 'alive.' I started thinking through various ways to surface materials from these archives. This is partly about answering some of Eli's challenge to boldly play with and reimagine an archive. Earlier I had thought through a guest book, receiving input from users. Now I'm thinking about bots (on social media perhaps, like Mastodon or previously a Twitter bot) that would surface material from UbuWeb and surface material from these digital archives I'm building. The challenge with the UbuWeb material is that the pages, while simple HTML without JS don't have an overarchiving recipe for all content, and aren't tagged. UbuWeb has "Top Ten" pages where selectors have listed favorite works, though mostly without much or any description beyond the artist and title of the work and a direct link to the media. In the Experimental Archive Space we had the 'random shoebox of photos' type page, partly inspired by Warhol's Raiding the Icebox. So I'm thinking some of the tools or approaches to take with these archives might be to have bots, curated selections by users or creators, or even a way to get input from folks to repost or select materials.
+
+[Duchamp Is My Lawyer on Columbia University Press](http://cup.columbia.edu/book/duchamp-is-my-lawyer/9780231186957)
+
+[UbuWeb Top Tens](https://ubuweb.com/resources/top_tens.html)
 
 ### 2022-12-05
 
