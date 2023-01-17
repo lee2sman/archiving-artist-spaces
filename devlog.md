@@ -1,5 +1,29 @@
 # Devlog for Archiving Artist Spaces
 
+### 2023-01-17
+
+I found many more great materials while doing research for my workshop for the Digital Literature for Social Good Unconference, hosted by Bournemouth University (UK) in partnership with the Electronic Literature Organization and the British Library January 17 and 18. In addition to compiling notes and preparing a presentation, I came across information on The Art Spaces Archives Project, 2003-2019, hosted by Bard College physically and on the web only on The Wayback Machine on the Internet Archive.
+
+[Art Spaces Archive Project AS AP on the Internet Archive Wayback Machine](https://web.archive.org/web/20190208082004/http://www.as-ap.org/)
+
+> Art Spaces Archives Project AS-AP is a non-profit initiative founded by a consortium of alternative art organizations, including Bomb Magazine, College Art Association, Franklin Furnace Archive, New York State Council on the Arts NYSCA, New York State Artist Workspace Consortium, and the Skowhegan School of Painting and Sculpture, with a mandate to help preserve, present, and protect the archival heritage of living and defunct for- and not-for-profit spaces of the "alternative" or "avant-garde" movement of the 1950s to the present throughout the United States.
+
+That's a list of a number of great organizations. Unfortunately its website expired. Thank god for the Internet Archive. A good reminder that DIY and experimental archives need longevity plans, duplication, and longterm caretaking, even when they are the product of major institutions.
+
+I'll quote extensively from this article from the Common Field website, which itself is in danger of disappearing from the web as the organization is "sunsetting" this year!
+
+[original page about AS-AP on Common Field site](https://www.commonfield.org/projects/3554/archival-legacies-the-art-spaces-archives-project-2003-2019-by-ann-butler)
+
+[backup copy of same on the Internet Archive](https://web.archive.org/web/20230117085024/https://www.commonfield.org/projects/3554/archival-legacies-the-art-spaces-archives-project-2003-2019-by-ann-butler)
+
+> Because many nonprofit art spaces don’t possess the means and resources to fully document their own history, let alone manage the day to day preservation and access of the material, AS-AP also served as an advocacy organization for alternative art spaces wishing to place their archives in research repositories. 
+
+My workshop talk for the Unconference is DIY Approaches to Preserving Creative Communities Online. The conference is organized by the New Media Writing Prize with the Electronic Literature Organization and British Library. In this 1 1/2 hour workshop I cover the problem, a number of example archives of born-digital works by artist-run creative communities, various questions to answer and approaches to take. Then we'll break to have people begin working on their own projects while I am available to provide assistance or feedback.
+
+### 2023-01-16
+
+I watched the Glenn Kurtz TEDx talk about "Three minutes in Poland," 1938 color film footage of a small town only months before the holocaust. "What are we looking at? What is preserved when we preserve this film?" His subject is weighty and serious. One of the things he talked about is that these snapshots, home movies - we don't know what we will find important years later. 
+
 ### 2023-01-07
 
 Work continues on Gas archive, now with Andrew L helping. He set up Kirby, which we've switched to, in order to make the organizing, backend easier. On the one hand, I think it will be a lot easier than a json database. It has a WYSIWYG CMS running as a local server in the browser. It uses templates and generates info per object (with their own rendered images, sizes, and text file with info to populate the static pages that are rendered). Kirby pops out a static site. Kirby's code is public, and has been maintained for over a decade by a single dev, though it is not open source and each individual site requires a license, currently $105. That and the complexity of setting it up mean it's good for creating our costume archive but I fear the fee, complexity, and lack of open source mean again this isn't a good general tool for non-devs. But due to some of these reasons, namely a sustainable business and static output and good documentation and easier 'database' system, it is a fine choice for this particular archive project.
