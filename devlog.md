@@ -1,5 +1,16 @@
 # Devlog for Archiving Artist Spaces
 
+
+### 2023-01-31
+
+Some recent events:
+
+* My talk and workshop for the Digital Literature for Social Good Unconference went really well! A great first run-through of publicly presenting and walking folks through some of the ideas, methodology, design process, etc.
+* Visited the Internet Archive, interviewed Brewster Kahle, attended Public Domain Day 2023! This was really fun. 
+* Met with legal team from NYU
+* Finishing draft archive for GAS 
+* Have been building another draft archive with Internet Archive resources. Will test 'alternative frontend' ideas.
+
 ### 2023-01-17
 
 I found many more great materials while doing research for my workshop for the Digital Literature for Social Good Unconference, hosted by Bournemouth University (UK) in partnership with the Electronic Literature Organization and the British Library January 17 and 18. In addition to compiling notes and preparing a presentation, I came across information on The Art Spaces Archives Project, 2003-2019, hosted by Bard College physically and on the web only on The Wayback Machine on the Internet Archive.
