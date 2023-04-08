@@ -1,6 +1,35 @@
 # Devlog for Archiving Artist Spaces
 
 
+### 2023-04-08
+
+Wow, it's been 2 months since my last update. 
+
+Gas.gallery is online! We published and announced the web archive at the beginning of the week. I spent the past many months working on it with Caleb. The last month up to launch was spent uploading and organizing content, and lots of bug smashing with Caleb, with some additional help from Andrew, and even a css fix suggestion by Amelia. I'm happy with the site and excited for people to view it.
+
+[gas.gallery](https://gas.gallery)
+
+I've been continuing to meet with NYU law, who is providing me counsel on the archives and best practices to share with DIY spaces attempting to build same. This is ongoing with approximately bi-monthly meetings. The next archive to complete is Little Berlin. 
+
+I was accepted for two workshops, at ISEA in Paris late May, and at HASTAC (peer-reviewed) in June. HASTAC will also feature an exhibition of the archives. Time to complete these!
+
+Other thoughts:
+
+Menu Diving (!) interfaces.
+
+CLI - using fzf to dig deeper through menus. 
+
+Lua/Love2d-built simple folder + text browser concept. 
+
+Roku channel as archive distribution/presentation tool? 
+
+[Roku Direct Publishing](https://developer.roku.com/en-gb/docs/direct-publisher/overview.md)
+
+[Roku Hello World sideloaded app example](https://developer.roku.com/en-gb/docs/developer-program/getting-started/hello-world.md) 
+Also:
+
+Watched a tutorial from Rhizome on using Conifer (former: webrecorder). It's a cool tool. Nice web UI. Has free and paid features.
+
 ### 2023-01-31
 
 Some recent events:
