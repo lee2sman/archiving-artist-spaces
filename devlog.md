@@ -11,11 +11,17 @@ Created some static site templates for the Archiving Artist-Run Spaces site (tha
 
 [Bookmarking this StackOverflow answer about Lua filters with pandoc to convert .md links to .html](https://stackoverflow.com/a/49396058)
 
+The team at NYU developed an incredible copyright guide.
+
+[Archiving Artist Space Copyright Guide PDF](assets/archiving-artist-spaces-copyright-guide.pdf)
+
 Took possession of 5 good-condition monitors, keyboards and mice from Materials for the Arts.
 
 Updated a hand-selected list of archives.
 
 Next workshop at HASTAC 2023 this coming Saturday.
+
+Reading Links:
 
 [Devine's talk Weathering Software Winter for Handmade Seattle](https://100r.co/site/weathering_software_winter.html)
 

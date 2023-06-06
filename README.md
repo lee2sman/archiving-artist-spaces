@@ -34,6 +34,10 @@ In the second stage, the Archiving Artist-run Spaces project seeks partnership w
 
 ### Links
 
+[Archiving Artist Spaces Copyright Guide](copyright.md)
+
+[...also available as a PDF](assets/archiving-artist-spaces-copyright-guide.pdf)
+
 [Gas gallery archive](https://gas.gallery)
 
 [Experimental Archive Space for Space 1026](http://experimentalarchive.space)
