@@ -33,11 +33,9 @@ for a sample spreadsheet.
 
 -   The source/location of the work;
 
--   The year the work was published and whether there is a copyright
-    > notice on the work (if published before March 1, 1989); and
+-   The year the work was published and whether there is a copyright notice on the work (if published before March 1, 1989); and
 
--   The creators and/or copyright owners of the work, including whether
-    > you were involved in the creation of the work.
+-   The creators and/or copyright owners of the work, including whether you were involved in the creation of the work.
 
 ### Types of Copyright Ownership
 
@@ -108,18 +106,13 @@ The fair use doctrine of copyright law states that certain uses of
 original works are non-infringing, even without permission from the
 copyright owner. It provides courts with four factors to analyze:
 
-1.  The purpose and character of the secondary use, including whether
-    > such use is of a commercial nature or for nonprofit educational
-    > purposes;
+1.  The purpose and character of the secondary use, including whether such use is of a commercial nature or for nonprofit educational purposes;
 
-2.  The nature of the copyrighted work, including (a) whether it is
-    > expressive or creative, and (b) whether it has been published;
+2.  The nature of the copyrighted work, including (a) whether it is expressive or creative, and (b) whether it has been published;
 
-3.  The amount and substantiality of the portion used in relation to the
-    > work as a whole; and
+3.  The amount and substantiality of the portion used in relation to the work as a whole; and
 
-4.  The effect of the secondary use on the potential market for or value
-    > of the copyrighted work.
+4.  The effect of the secondary use on the potential market for or value of the copyrighted work.
 
 These factors are used in U.S. copyright law only. See Appendix E for
 more information on each factor.
