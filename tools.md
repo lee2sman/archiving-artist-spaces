@@ -18,3 +18,6 @@ This is an in-progress list of tools for archiving artist-run spaces' online act
 [flickr-scrape by sam levine and others](https://github.com/antiboredom/flickr-scrape)
 
 
+---
+
+[![](assets/img/banner.jpg)](https://leetusman.com/archiving-artist-spaces)

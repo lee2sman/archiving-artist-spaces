@@ -1,0 +1,83 @@
+/* color palette Sea Sorcerer by Noah Rowlands https://lospec.com/palette-list/sea-sorcerer */
+
+:root {
+  --main-bg-color: #dbdbdb;
+  --alt-bg-color: #b6b6b6;
+  --main-fg-color: #242424;
+  --main-heading-color: #4992ff;
+  --secondary-heading-color: #4992ff;
+  --tertiary-heading-color: #926db6;
+  --border-color: #db6d6d;
+  --link-color: #249292;
+}
+
+html {
+  border-top: 10px solid var(--border-color);
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,serif;
+}
+
+body {
+  margin: auto;
+  padding: 10px;
+  max-width: 30em;
+  font-size: 1.4rem;
+
+  background-color: var(--main-bg-color);
+  color: var(--main-fg-color);
+}
+
+h1 {
+  color: var(--main-fg-color);
+}
+
+h2 {
+  color: var(--secondary-heading-color);
+}
+
+h3 {
+  color: var(--tertiary-heading-color);
+}
+
+figure {
+  margin: 0px;
+}
+
+img {
+    padding: 0.5rem; 
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote {
+  padding: 0.7rem;
+  border-radius: 0.8rem;
+  background-color: var(--alt-bg-color);
+  font-style: italic;
+}
+
+code {
+  padding: 0.3rem;
+  background-color: var(--border-color);
+  display: block;
+
+}
+
+a {
+  color: var(--link-color);
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 684px) {
+  body {
+    font-size: 1.53rem;
+  }
+}
+@media (max-width: 382px) {
+  body {
+    font-size: 1.35rem;
+  }
+}
+

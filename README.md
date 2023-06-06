@@ -49,3 +49,7 @@ In the second stage, the Archiving Artist-run Spaces project seeks partnership w
 [Raid the Icebox I was an artist-curated exhibit by Andy Warhol at the RISD Museum. While not a direct reference, it partly inspires my archival work here.](https://risdmuseum.org/exhibitions-events/exhibitions/raid-icebox-1-andy-warhol)  
 
 ![Experimental Archive Space - zine page](assets/img/zine.jpg)
+
+---
+
+[![](assets/img/banner.jpg)](https://leetusman.com/archiving-artist-spaces)

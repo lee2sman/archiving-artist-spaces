@@ -1,6 +1,27 @@
 # Devlog for Archiving Artist Spaces
 
 
+### 2023-06-05
+
+My workshop at ISEA 2023 went really well. Great discussion and participation. Some good collaborations and brainstorming came out of this, and some scholars have set up meetings with me to discuss further.
+
+[Strategic Preservation of Online Communities slides](https://docs.google.com/presentation/d/16IJNX_PayRJYPODXHfHuZ-Al72sg-CBw0dZL--4WR6A/edit?usp=sharing)
+
+Created some static site templates for the Archiving Artist-Run Spaces site (that you're currently reading). Workflow is markdown -> html via pandoc with my classless css template. Will be deploying this shortly after deciding on the URL.
+
+[Bookmarking this StackOverflow answer about Lua filters with pandoc to convert .md links to .html](https://stackoverflow.com/a/49396058)
+
+Took possession of 5 good-condition monitors, keyboards and mice from Materials for the Arts.
+
+Updated a hand-selected list of archives.
+
+Next workshop at HASTAC 2023 this coming Saturday.
+
+[Devine's talk Weathering Software Winter for Handmade Seattle](https://100r.co/site/weathering_software_winter.html)
+
+[Permacomputing Wiki](https://permacomputing.net/)
+
+
 ### 2023-04-08
 
 Wow, it's been 2 months since my last update. 
@@ -534,3 +555,7 @@ Links:
 [Queer Archive Work](https://queer.archive.work/)  
 [Artists Space image archive](https://images.artistsspace.org/)  
 [Babycastles: Scrape-The-Internet-For-Our-Archives](https://github.com/babycastles/Scrape-The-Internet-For-Our-Archives) (GitHub repo)   
+
+---
+
+[![](assets/img/banner.jpg)](https://leetusman.com/archiving-artist-spaces)
