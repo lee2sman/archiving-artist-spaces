@@ -1,4 +1,4 @@
-# Archiving Artist-Run Spaces 
+# 🗃️ Archiving Artist-Run Spaces 
 
 An archival project to preserve images, oral history and activity of precarious artist-run spaces
 
@@ -37,6 +37,8 @@ In the second stage, the Archiving Artist-run Spaces project seeks partnership w
 [Archiving Artist Spaces Copyright Guide](copyright.md)
 
 [...also available as a PDF](assets/archiving-artist-spaces-copyright-guide.pdf)
+
+[Informal list of archives](archives.md)
 
 [Gas gallery archive](https://gas.gallery)
 
