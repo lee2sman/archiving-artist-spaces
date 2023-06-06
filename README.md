@@ -34,6 +34,8 @@ In the second stage, the Archiving Artist-run Spaces project seeks partnership w
 
 ### Links
 
+[Gas gallery archive](https://gas.gallery)
+
 [Experimental Archive Space for Space 1026](http://experimentalarchive.space)
 
 [Artists in the Archive - ITP Spring 2019 course taught by Jer Thorp](https://github.com/blprnt/ArtArchive) (GitHub Repository, 2019)
@@ -42,7 +44,11 @@ In the second stage, the Archiving Artist-run Spaces project seeks partnership w
 
 [The Portal - an archive of performance, by Cori Olinghouse](https://theportal.place/)
 
+Additional links in the development log.
+
 ### Screenshots
+
+![Gas Gallery screenshot](assets/img/gas-screenshot.jpg)
 
 ![Experimental Archive Space - 'raiding the icebox'](assets/img/raiding-the-icebox.jpg)
 
