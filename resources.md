@@ -1,5 +1,7 @@
 # Resources
 
+This page is a work in progress and will include additional tutorials over time.
+
 ## Guides
 
 [Copyright Guide](copyright.md)

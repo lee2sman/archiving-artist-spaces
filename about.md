@@ -13,6 +13,8 @@ The style reflects maximizing text and making it easy to read and scan a page wi
 
 No Javascript is required to view or navigate the site. Media queries are used to resize the font for readability on small screens. Where possible, images have been compressed to support minimizing page load.
 
+Pages are written in markdown and converted to html with a simple homemade static generator based on the free libre program Pandoc. 
+
 Other sites whose design inspired the design of this site:
 
 [Brutalist Websites](https://brutalistwebsites.com/), [Text-only NPR](https://text.npr.org/), [Solidarity Infrastructure Interviews](https://interviews.commoninternet.net/), [Low Tech Magazine's Low-tech Website](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/), [Buttondown archived posts](https://buttondown.email/leetusman/archive/), [Compudanzas](https://compudanzas.net), [Cerca forum](https://forum.merveilles.town), 
