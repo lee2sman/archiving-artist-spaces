@@ -70,6 +70,19 @@ a {
   padding: 0;
 }
 
+nav {
+  font-size: medium;
+}
+
+footer {
+ font-size: x-small;
+ padding-top:2em;
+}
+
+footer img{
+ margin:0;
+}
+
 @media (max-width: 684px) {
   body {
     font-size: 1.53rem;

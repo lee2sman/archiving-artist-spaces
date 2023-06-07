@@ -1,67 +1,16 @@
 # 🗃️ Archiving Artist-Run Spaces 
 
-An archival project to preserve images, oral history and activity of precarious artist-run spaces
+An archive project to preserve the online activities of DIY and artist-run communities in the era of born-digital media, providing tools, models for preservation and partnerships with longstanding archives invested in digital preservation. The website presents a toolkit for artist-run organizations providing information, training, tools and other resources. 
+
 
 ![Experimental Archive Space - homepage](assets/img/homepage.jpg)
 
 ![Experimental Archive Space - interview page](assets/img/interview.jpg)
 
-### Description 
-
-Artist-run spaces, also called DIY Spaces or Alternative Spaces are creative communities operating on the margins of cultural institutions. They exist in a precarious space, currently affected by the economy, pandemic, and gentrification. Many shuttered during the pandemic. Others have struggled to make rent.
-
-While artist-run communities of earlier eras are documented through photographic prints, video, and publications, these recent communities are primarily promoted and documented online, on closed proprietary platforms, with an emphasis on immediacy but not on long term archiving. An archive of creative activities are in danger of disappearing as websites go down, platforms close or change their business plan. Even when custom and personal websites are created, there is a danger they could disappear, get hacked, or close down, or browser security and protocols change, causing them to stop working. 
-
-Archiving Artist Spaces is a project to build a toolkit for artist-run organizations providing information, training, tools and other resources. In the first iteration, several pilot archives will be set up in collaboration with artist-run spaces in LA, NYC and Philadelphia. Some of these spaces are ongoing while others recently closed during the pandemic.
-
-In the second stage, the Archiving Artist-run Spaces project seeks partnership with institutions concerned with longterm preservation of artist communities and their work to build out longterm preservation systems and caretaking. Partners include physical art archives, digital libraries and public libraries and archives.
-
-## Devlog
-
-[Activity development log](devlog.md)
-
-## In Progress and Next Steps
-
-* Expand partnering organizations. Conduct interviews, assess their practices, help identify and build their archive through free open source software tools 
-* Create a toolkit of best practices to be shared with artist organizations, presented online (website and youtube tutorial) and offer workshops 
-* Create software toolkit of open source software these organizations can use 
-* Secure funding for developing these tools, building website with documentation, assist in costs for travel, and to pay honorariums
-* Secure an institutional partner(s) to serve as long term care takers of these archives 
-
-### Tools
-
-[Tools list](tools.md)
-
-### Links
-
-[Archiving Artist Spaces Copyright Guide](copyright.md)
-
-[...also available as a PDF](assets/archiving-artist-spaces-copyright-guide.pdf)
-
-[Informal list of archives](archives.md)
-
-[Gas gallery archive](https://gas.gallery)
-
-[Experimental Archive Space for Space 1026](http://experimentalarchive.space)
-
-[Artists in the Archive - ITP Spring 2019 course taught by Jer Thorp](https://github.com/blprnt/ArtArchive) (GitHub Repository, 2019)
-
-[What Do you Mean by Archive? Genres of Usage for Digital Preservers](https://blogs.loc.gov/thesignal/2014/02/what-do-you-mean-by-archive-genres-of-usage-for-digital-preservers/) (Library of Congress Blog, 2014)  
-
-[The Portal - an archive of performance, by Cori Olinghouse](https://theportal.place/)
-
-Additional links in the development log.
-
-### Screenshots
-
 ![Gas Gallery screenshot](assets/img/gas-screenshot.jpg)
 
 ![Experimental Archive Space - 'raiding the icebox'](assets/img/raiding-the-icebox.jpg)
 
-[Raid the Icebox I was an artist-curated exhibit by Andy Warhol at the RISD Museum. While not a direct reference, it partly inspires my archival work here.](https://risdmuseum.org/exhibitions-events/exhibitions/raid-icebox-1-andy-warhol)  
 
 ![Experimental Archive Space - zine page](assets/img/zine.jpg)
 
----
-
-[![](assets/img/banner.jpg)](https://leetusman.com/archiving-artist-spaces)

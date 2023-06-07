@@ -1,5 +1,7 @@
 # Archiving Artist Spaces Copyright Guide
 
+[This guide is also available as a downloadable PDF](assets/archiving-artist-spaces-copyright-guide.pdf)
+
 ### The Guide
 
 Archiving is generally a low risk endeavor from a copyright law

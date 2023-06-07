@@ -1,4 +1,4 @@
-# Archives
+# Archive List
 
 An **informal** personally-collected list of some digital archives of [artist-run spaces](https://en.wikipedia.org/wiki/Artist-run_space), alternative spaces, DIY print media and collections, and digitally-born online-only digital creative art-making communities.
 
@@ -18,7 +18,7 @@ With funding provided by NYSCA, The National Endowment for the Arts, and the And
 
 ### Elevator Mondays
 
-[Elevator Mondays](https://donedler.com/index.php?/elevator/elevator-book/)
+[Elevator Mondays](https://www.donedler.com/index.php?/elevator/elevator-mondays/)
 
 Description: "ELEVATOR MONDAYS, a social exhibition space built inside a decommissioned 4ft x 6ft freight elevator....the project revolved around weekly Monday night community BBQs at our studio building. These pot-luck events were social opportunities for members of the LA art community to come together and hang out once a week with friends and food. Following in this tradition, ELEVATOR MONDAYS functions as a social space for art and dialogue. The intimate scale and discrete location of the space allows for a more personal, conversational experience for both the viewers and the artists." 
 
@@ -67,6 +67,14 @@ Images and videos are hosted on the Internet Archive.
 Assembled by Russ Sharek.
 
 CC BY
+
+### The Portal
+
+[The Portal](https://theportal.place/)
+
+Description: "In 2017, I founded The Portal as a way to explore what it means to archive performance, asking how an archive might operate as a kind of "living" space that develops protocols for process and regeneration, attuning to the ways of knowing that emerge from embodied practices."
+
+Founded by Cori Olinhouse. Design by Laurel Schwulst.
 
 ### Prelinger Archives
 

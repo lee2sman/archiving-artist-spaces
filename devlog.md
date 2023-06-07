@@ -9,8 +9,6 @@ My workshop at ISEA 2023 went really well. Great discussion and participation. S
 
 Created some static site templates for the Archiving Artist-Run Spaces site (that you're currently reading). Workflow is markdown -> html via pandoc with my classless css template. Will be deploying this shortly after deciding on the URL.
 
-[Bookmarking this StackOverflow answer about Lua filters with pandoc to convert .md links to .html](https://stackoverflow.com/a/49396058)
-
 The team at NYU developed an incredible copyright guide.
 
 [Archiving Artist Space Copyright Guide PDF](assets/archiving-artist-spaces-copyright-guide.pdf)
@@ -26,7 +24,6 @@ Reading Links:
 [Devine's talk Weathering Software Winter for Handmade Seattle](https://100r.co/site/weathering_software_winter.html)
 
 [Permacomputing Wiki](https://permacomputing.net/)
-
 
 ### 2023-04-08
 
@@ -338,10 +335,6 @@ Today I am tuning into Publishing Partyline, a series of talks online organized 
 
 Attended talk at NYU Engelberg Center with Brewster Kahle talking about the Internet Archive's legal case against 4 publishing companies who are suing them. Kahle talked about a canadian term Technological Neutraility - what you can do with previous-generation technology (e.g. a book) you should be able to do with present-day technology (e-books - buy, sell, loan, etc). Afterwards I talked to Brewster about the Archiving Artist Spaces project. He was extremely supportive and gave me some contacts at his organization to get in touch with and some suggestions to look into their API and to help other groups learn about and use ArchiveIt.
 
-### 2022-09-07
-
-Relapse of concussion symptoms. Ongoing dizziness, pain, headache, etc issues has made this project go at least half as slow as the pace I'd like it to go since computer work is harder. 
-
 ### 2022-09-06
 
 Ongoing work on Gas archive
@@ -353,10 +346,6 @@ Recorded an initial audio interview with about 10 members of Flux Factory in Aar
 ### 2022-07-21
 
 Pete and I completed an initial draft of the Little Berlin archive.
-
-### 2022-06-30
-
-Discuss Gas archive.
 
 ### 2022-06-15
 
@@ -505,7 +494,7 @@ Many of the archival books relating to artist-run spaces I reviewed consisted pr
 Links:
 
 [Los Angeles Contemporary Archive](http://lacarchive.com)  
-[Significance 2.0: A Guide to Assessing the Significance of Collections](https://www.arts.gov.au/sites/default/files/significance-2.0.pdf?acsf_files_redirect) (PDF, Collections Council of Australia)
+[Significance 2.0: A Guide to Assessing the Significance of Collections](https://web.archive.org/web/20211110044329/https://www.arts.gov.au/sites/default/files/significance-2.0.pdf?acsf_files_redirect) (PDF, Collections Council of Australia, original ironically is down, copy on archive.org)
 
 ### 2022-02-06
 

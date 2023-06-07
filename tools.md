@@ -7,6 +7,8 @@ This is an in-progress list of tools for archiving artist-run spaces' online act
 
 [Wayback Machine Downloader - Download an entire website from the Internet Archive Wayback Machine](https://github.com/cocoflan/wayback-machine-downloader) 
 
+[HTTrack Website Copier - Free software offline browser. It allows you to download a WWW site from the internet to a local directory, recursively, getting HTML, images and other files.](https://www.httrack.com/)
+
 [Conifer - Rhizome's web archiving service](https://conifer.rhizome.org/)
 
 [Web Recorder: Web Archiving For All. Webrecorder provides a suite of open source tools and packages to capture interactive websites and replay them at a later time as accurately as possible](https://webrecorder.net/)
@@ -17,7 +19,3 @@ This is an in-progress list of tools for archiving artist-run spaces' online act
 
 [flickr-scrape by sam levine and others](https://github.com/antiboredom/flickr-scrape)
 
-
----
-
-[![](assets/img/banner.jpg)](https://leetusman.com/archiving-artist-spaces)
