@@ -29,6 +29,8 @@ How to use the Internet Archive and wayback machine
 
 How to host a website
 
+Accessibility considerations
+
 ### Strategies for Longterm Preservation
 
 How to backup and host multiple copies of your archive
