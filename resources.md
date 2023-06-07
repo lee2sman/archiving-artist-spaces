@@ -6,6 +6,8 @@ This page is a work in progress and will include additional tutorials over time.
 
 [Copyright Guide](copyright.md)
 
+[Tutorials](tutorials.md)
+
 
 ## Workshop
 
