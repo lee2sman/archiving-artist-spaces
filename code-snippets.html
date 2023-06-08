@@ -13,7 +13,7 @@
 <meta property='og:description' content="preserve the online activities of DIY and artist-run communities.">
 <meta name='description' content="explorations of joyful and human-scale computing.">
 <meta property='og:url' content='https://leetusman.com/archiving-artist-spaces'>
-  <title>tools</title>
+  <title>code-snippets</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -39,39 +39,28 @@
   <![endif]-->
 </head>
 <body>
-<h1 id="tools">Tools</h1>
-<p>This is an in-progress list of tools for archiving artist-run spaces’
-online activities such as: scraping websites, ‘freezing’ and preserving
-facebook and similar closed proprietary platform event pages, and
-more.</p>
-<p><a href="https://archive-it.org">Archive-It - Internet Archive’s
-institutional tool to backup the website/data of organizations</a></p>
+<h1 id="useful-code-snippets">Useful code snippets</h1>
+<p>These snippets of code are meant to be run on the command line,
+especially on a Linux-based machine. They will require extra packages to
+run.</p>
+<h2 id="reduce-size-of-a-pdf">Reduce size of a PDF</h2>
+<p>Using Ghostscrpt</p>
+<p>Requires ghostscript package.</p>
+<pre><code>gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/default \
+    -dNOPAUSE -dQUIET -dBATCH -dDetectDuplicateImages \
+    -dCompressFonts=true -r150 -sOutputFile=output.pdf input.pdf</code></pre>
 <p><a
-href="https://github.com/cocoflan/wayback-machine-downloader">Wayback
-Machine Downloader - Download an entire website from the Internet
-Archive Wayback Machine</a></p>
-<p><a href="https://www.httrack.com/">HTTrack Website Copier - Free
-software offline browser. It allows you to download a WWW site from the
-internet to a local directory, recursively, getting HTML, images and
-other files.</a></p>
-<p><a href="https://conifer.rhizome.org/">Conifer - Rhizome’s web
-archiving service</a></p>
-<p><a href="https://lib-static.github.io/models/">Plaintext tools for
-publishing on Lib-Static</a></p>
-<p><a href="https://collectionbuilder.github.io/">CollectionBuilder-GH
-template for creating simple digital exhibits</a></p>
-<p><a href="https://webrecorder.net/">Web Recorder: Web Archiving For
-All. Webrecorder provides a suite of open source tools and packages to
-capture interactive websites and replay them at a later time as
-accurately as possible</a></p>
-<p><a href="https://www.gnu.org/software/wget/">Wget - CLI free software
-package for retrieving files using HTTP, HTTPS, FTP and FTPS</a></p>
-<p><a href="https://github.com/arc298/instagram-scraper">instagram
-scraper - CLI python program</a></p>
-<p><a href="https://github.com/antiboredom/flickr-scrape">flickr-scrape
-by sam levine and others</a></p>
-<p><a href="https://www.octoparse.com/">OctoParse</a></p>
-<p><a href="https://fdown.net/">Facebook Video Downloader</a></p>
+href="https://askubuntu.com/questions/207447/how-to-reduce-the-size-of-a-pdf-file">from
+AskUbuntu</a></p>
+<h2 id="convert-pdf-to-individual-image-files-for-each-page">Convert pdf
+to individual image files for each page</h2>
+<p>Requires poppler-utils.</p>
+<pre><code>pdftoppm -png input.pdf outputname</code></pre>
+<p>By default images will be at 150dpi resolution but can be
+altered.</p>
+<p><a
+href="https://www.howtogeek.com/devops/convert-pdf-to-images-from-the-linux-command-line/">from
+HowToGeek</a></p>
 <footer>
 <hr/>
 <p><a href='.'>Home</a> &nbsp; <a href='./about.html'>About</a> &nbsp; <a href='./archives.html'>Archives</a> &nbsp; <a href='./resources.html'>Resources</a> &nbsp; <a href='./reading.html'>Reading</a> &nbsp; <a href='./devlog.html'>Log</a> </p>
