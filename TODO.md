@@ -25,8 +25,6 @@ How to do oral history interviews
 
 How to build a low-bandwidth site with plaintext and images without using a 'platform'
 
-How to use the Internet Archive and wayback machine
-
 How to host a website
 
 Accessibility considerations
@@ -39,9 +37,5 @@ How to work with other institutions to preserve for the longterm
 
 How and why to turn your archive into a printed publication
 
-
-
-
-
-
+How to use the Internet Archive and wayback machine
 

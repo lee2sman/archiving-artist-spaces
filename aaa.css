@@ -26,6 +26,12 @@ body {
   color: var(--main-fg-color);
 }
 
+header a p{
+  color: var(--main-fg-color);
+  text-decoration: underline !important;
+  font-weight: bold;
+}
+
 h1 {
   color: var(--main-fg-color);
 }
@@ -39,11 +45,20 @@ h3 {
 }
 
 figure {
-  margin: 0px;
+  margin: 0px; 
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: table;
+}
+figcaption {
+  display: table-caption;
+  caption-side: top;
+  margin-bottom: 1rem;
+  font-weight: bold;
 }
 
 img {
-    padding: 0.5rem; 
+/*    padding: 0.5rem;  */
     display: block;
     max-width: 100%;
     margin-left: auto;
@@ -75,12 +90,12 @@ nav {
 }
 
 footer {
- font-size: x-small;
- padding-top:2em;
+ font-size: small;
+ padding-top: 2em;
 }
 
 footer img{
- margin:0;
+ margin: 0;
 }
 
 @media (max-width: 684px) {
@@ -88,9 +103,14 @@ footer img{
     font-size: 1.53rem;
   }
 }
-@media (max-width: 382px) {
+@media (max-width: 428px) {
   body {
     font-size: 1.35rem;
+}
+
+/* fixes sitename mid-sentence text break on some phones */
+header a p{
+  font-size: 1.1rem;
   }
 }
 

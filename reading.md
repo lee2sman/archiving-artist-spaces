@@ -28,6 +28,8 @@ This is a selected reading list of web-based articles and some books that relate
 
 [Lib-Static: a methodology, a collection, a community](https://lib-static.github.io/) on GitHub by Institute of Museum and Library Services and the University of Idaho ( [GitHub source](https://github.com/lib-static/lib-static.github.io/blob/main/pages/about.md) )
 
+[Preserve This Podcast](https://preservethispodcast.org/) ([archive.org copy](https://web.archive.org/web/20230504090031/https://preservethispodcast.org/))
+
 ## Digital preservation Techniques
 
 [Data Extinction](https://www.technologyreview.com/2002/10/01/234717/data-extinction/) in MIT Review ([archive.org copy](https://web.archive.org/web/20230329231334/https://www.technologyreview.com/2002/10/01/234717/data-extinction/))

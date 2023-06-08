@@ -32,14 +32,15 @@
 
 [Accessibility Tutorial](https://www.w3schools.com/accessibility/index.php) by w3schools
 
-[Using the Wayback Machine](https://help.archive.org/help/using-the-wayback-machine/) by Internet Archive
-
-[Guide for New Archive-It Users](https://support.archive-it.org/hc/en-us/articles/360041250172-Guide-for-new-Archive-It-Users-) by Jillian Lohndorf of Archive-It and the Internet Archive
-
 ### Strategies for Longterm Preservation
 
 [How to Back Up Your Website](How to Back Up Your Website) from PC Mag
 
 [Sync files across multiple devices with Syncthing](https://opensource.com/article/20/1/sync-files-syncthing) from Opensource.com
 
-[Paged.js for HTML to PDF](https://evanwill.github.io/_drafts/notes/pagedjs.html) by 
+[Paged.js for HTML to PDF](https://evanwill.github.io/_drafts/notes/pagedjs.html) by Evan Will
+
+[Using the Wayback Machine](https://help.archive.org/help/using-the-wayback-machine/) by Internet Archive
+
+[Guide for New Archive-It Users](https://support.archive-it.org/hc/en-us/articles/360041250172-Guide-for-new-Archive-It-Users-) by Jillian Lohndorf of Archive-It and the Internet Archive
+
