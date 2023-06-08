@@ -22,4 +22,3 @@ This page is a work in progress and will include additional tutorials over time.
 This is an in-progress list.
 
 [List of useful tools](tools.md)
-

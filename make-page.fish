@@ -36,5 +36,5 @@ if test (string match README $pagename)
 end
 
 # Here's where the magic happens
-pandoc -s -c aaa.css -s -f markdown+smart --metadata pagetitle=$pagename --to=html5 --include-in-header=header.html --include-after-body=footer.html $inputfile -o $outputfile --lua-filter=links-to-html.lua
+pandoc -s -c assets/css/main.css -s -f markdown+smart --metadata pagetitle=$pagename --to=html5 --template template.html --include-in-header=header.html --include-after-body=footer.html $inputfile -o $outputfile --lua-filter=links-to-html.lua
 

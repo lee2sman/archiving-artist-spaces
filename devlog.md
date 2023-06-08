@@ -6,7 +6,7 @@ Installed Archiving Artist-Run Spaces at the HASTAC 2023 [exhibition](https://sc
 
 The HASTAC [workshop](https://sched.co/1LeVA) for Archiving Artist-Run Spaces will be held 2023-06-10 15:30 - 17:00.
 
-Completed design draft for the Archiving Artist Spaces site where you are likely reading this currently. Previously I was using markdown files served with GitHub pages. I'm still using GitHub pages to hostN but now I'm using pandoc with a shell script wrapper I wrote that does the rendering, adds metadata, header and footer. The site was built with classless CSS and is being hosted via GitHub pages. The archives page is a gallery page inspired by brutalist websites that I coded with flexbox and added media queries to make it responsive. Will continue to refine and update the site.
+Completed design for the Archiving Artist Spaces site where you are likely reading this currently. Technical description follows: The site is a custom static site generator I built using pandoc to render markdown to html with a classless stylesheet. I'm using (fish) shell for the scripting and created custom templates in pandoc. No javascript is used. The site is hosted with GitHub pages. Even the gallery page of archives is built with classless css though use of divs. A goal is that someone with basic web design knowledge could write their own website just as text, markdown converted to HTML and drop my stylesheets in to render a nice website and image galleries. In practice, there's slightly more knowledge required currently to hook their pages up but I can document or try to automate it further for folks.
 
 ### 2023-06-05
 

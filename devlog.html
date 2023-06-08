@@ -23,7 +23,7 @@
     ul.task-list{list-style: none;}
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="aaa.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
   <header>
     <a href='./'><p>🗃️ Archiving Artist-Run Spaces</p></a>
 
@@ -39,6 +39,7 @@
   <![endif]-->
 </head>
 <body>
+<main>
 <h1 id="log">Log</h1>
 <h3 id="section">2023-06-07</h3>
 <p>Installed Archiving Artist-Run Spaces at the HASTAC 2023 <a
@@ -46,15 +47,18 @@ href="https://sched.co/1NY7v">exhibition</a> exhibition. Opens
 2023-06-08 17:00 at Pratt in Brooklyn.</p>
 <p>The HASTAC <a href="https://sched.co/1LeVA">workshop</a> for
 Archiving Artist-Run Spaces will be held 2023-06-10 15:30 - 17:00.</p>
-<p>Completed design draft for the Archiving Artist Spaces site where you
-are likely reading this currently. Previously I was using markdown files
-served with GitHub pages. I’m still using GitHub pages to hostN but now
-I’m using pandoc with a shell script wrapper I wrote that does the
-rendering, adds metadata, header and footer. The site was built with
-classless CSS and is being hosted via GitHub pages. The archives page is
-a gallery page inspired by brutalist websites that I coded with flexbox
-and added media queries to make it responsive. Will continue to refine
-and update the site.</p>
+<p>Completed design for the Archiving Artist Spaces site where you are
+likely reading this currently. Technical description follows: The site
+is a custom static site generator I built using pandoc to render
+markdown to html with a classless stylesheet. I’m using (fish) shell for
+the scripting and created custom templates in pandoc. No javascript is
+used. The site is hosted with GitHub pages. Even the gallery page of
+archives is built with classless css though use of divs. A goal is that
+someone with basic web design knowledge could write their own website
+just as text, markdown converted to HTML and drop my stylesheets in to
+render a nice website and image galleries. In practice, there’s slightly
+more knowledge required currently to hook their pages up but I can
+document or try to automate it further for folks.</p>
 <h3 id="section-1">2023-06-05</h3>
 <p>Had a really positive workshop at ISEA 2023. Great discussion and
 participation and some nascent collaborations and brainstorming
@@ -1116,6 +1120,7 @@ archive</a></p>
 <p><a
 href="https://github.com/babycastles/Scrape-The-Internet-For-Our-Archives">Babycastles:
 Scrape-The-Internet-For-Our-Archives</a> (GitHub repo)</p>
+</main>
 <footer>
 <hr/>
 <p><a href='.'>Home</a> &nbsp; <a href='./about.html'>About</a> &nbsp; <a href='./archives.html'>Archives</a> &nbsp; <a href='./resources.html'>Resources</a> &nbsp; <a href='./reading.html'>Reading</a> &nbsp; <a href='./devlog.html'>Log</a> </p>
