@@ -23,5 +23,7 @@ This is an in-progress list of tools for archiving artist-run spaces' online act
 
 [flickr-scrape by sam levine and others](https://github.com/antiboredom/flickr-scrape)
 
+[OctoParse](https://www.octoparse.com/)
+
 [Facebook Video Downloader](https://fdown.net/)
 

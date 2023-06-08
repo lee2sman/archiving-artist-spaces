@@ -29,7 +29,7 @@ Thanks to Ceci Moss for directing Gas and working with us to build the archive.
 
 Thanks to the many photographers, writers, videographers documenting.
 
-Thanks to the many artists of these special spaces, including everyone at Space 1026, Babycastles and Flux Factory. Thanks to [Merveilles](https://webring.xxiivv.com/) for ongoing web community.
+Thanks to the many artists of these special spaces, including everyone at Space 1026, Babycastles and Flux Factory. Thanks to [Merveilles](https://webring.xxiivv.com/) for ongoing web community. Eli Mellen graciously gave helpful advice. 
 
 The [copyright](copyright.md) guide was created by Batya Kemper and Lindsay Harris at NYU’s Technology Law & Policy Clinic.
 

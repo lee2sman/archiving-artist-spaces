@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Archiving Artist-Run Spaces | Development Log</title>
+  <title>devlog</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -15,40 +15,51 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="aaa.css" />
+  <header>
+    <a href='./'><p>🗃️ Archiving Artist-Run Spaces</p></a>
+
+  <nav>
+
+  <p>
+  <p><a href='.'>home</a> <a href='./about.html'>about</a> <a href='./archives.html'>archives</a> <a href='./resources.html'>resources</a> <a href='./reading.html'>reading</a> <a href='./devlog.html'>log</a> </p>
+  </nav>
+
+  </header>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
 </head>
 <body>
-
-<header>
-  <a href='./'><p>🗃️ Archiving Artist-Run Spaces</p></a>
-
-<nav>
-
-<p>
-<p><a href='.'>home</a> <a href='./about.html'>about</a> <a href='./archives.html'>archives</a> <a href='./resources.html'>resources</a> <a href='./reading.html'>reading</a> <a href='./devlog.html'>log</a> </p>
-</nav>
-
-</header>
 <h1 id="devlog-for-archiving-artist-spaces">Devlog for Archiving Artist
 Spaces</h1>
-<h3 id="section">2023-06-05</h3>
-<p>My workshop at ISEA 2023 went really well. Great discussion and
-participation. Some good collaborations and brainstorming came out of
-this, and some scholars have set up meetings with me to discuss
-further.</p>
+<h3 id="section">2023-06-07</h3>
+<p>Installed Archiving Artist-Run Spaces at the HASTAC 2023 <a
+href="https://sched.co/1NY7v">exhibition</a> exhibition. Opens
+2023-06-08 17:00 at Pratt in Brooklyn.</p>
+<p>The HASTAC <a href="https://sched.co/1LeVA">workshop</a> for
+Archiving Artist-Run Spaces will be held 2023-06-10 15:30 - 17:00.</p>
+<p>Completed design draft for the Archiving Artist Spaces site where you
+are likely reading this document from now. Previously I was using
+markdown files served with GitHub pages. I’m still using GitHub pages to
+hostN but now I’m using pandoc with a shell script wrapper I wrote that
+does the rendering, adds metadata, header and footer. The site was built
+with classless CSS and is being hosted via GitHub pages. The archives
+page is a gallery page inspired by brutalist websites that I coded with
+flexbox and added media queries to make it responsive. Will continue to
+refine and update the site.</p>
+<h3 id="section-1">2023-06-05</h3>
+<p>Had a really positive workshop at ISEA 2023. Great discussion and
+participation and some nascent collaborations and brainstorming
+developing.</p>
 <p><a
 href="https://docs.google.com/presentation/d/16IJNX_PayRJYPODXHfHuZ-Al72sg-CBw0dZL--4WR6A/edit?usp=sharing">Strategic
 Preservation of Online Communities slides</a></p>
-<p>Created some static site templates for the Archiving Artist-Run
-Spaces site (that you’re currently reading). Workflow is markdown -&gt;
-html via pandoc with my classless css template. Will be deploying this
+<p>Created static site templates for the Archiving Artist-Run Spaces
+site (that you’re currently reading). Workflow is markdown -&gt; html
+via pandoc with my classless css template. Will be deploying this
 shortly after deciding on the URL.</p>
-<p><a href="https://stackoverflow.com/a/49396058">Bookmarking this
-StackOverflow answer about Lua filters with pandoc to convert .md links
-to .html</a></p>
-<p>The team at NYU developed an incredible copyright guide.</p>
+<p>Batya and Lindsay at NYU Technology and Law Clinic developed an
+incredible copyright guide that I’m excited to share.</p>
 <p><a
 href="assets/archiving-artist-spaces-copyright-guide.pdf">Archiving
 Artist Space Copyright Guide PDF</a></p>
@@ -61,43 +72,44 @@ Materials for the Arts.</p>
 href="https://100r.co/site/weathering_software_winter.html">Devine’s
 talk Weathering Software Winter for Handmade Seattle</a></p>
 <p><a href="https://permacomputing.net/">Permacomputing Wiki</a></p>
-<h3 id="section-1">2023-04-08</h3>
-<p>Wow, it’s been 2 months since my last update.</p>
+<h3 id="section-2">2023-04-08</h3>
 <p>Gas.gallery is online! We published and announced the web archive at
 the beginning of the week. I spent the past many months working on it
 with Caleb. The last month up to launch was spent uploading and
 organizing content, and lots of bug smashing with Caleb, with some
-additional help from Andrew, and even a css fix suggestion by Amelia.
-I’m happy with the site and excited for people to view it.</p>
+additional help from Andrew and Amelia. I’m happy with the site and
+excited for people to view it.</p>
 <p><a href="https://gas.gallery">gas.gallery</a></p>
-<p>I’ve been continuing to meet with NYU law, who is providing me
-counsel on the archives and best practices to share with DIY spaces
-attempting to build same. This is ongoing with approximately bi-monthly
-meetings. The next archive to complete is Little Berlin.</p>
+<p>I’ve been continuing to meet with NYU Technology and Law Clinic, who
+is providing me counsel on the archives and best practices to share with
+DIY spaces attempting to build same. This is ongoing with approximately
+bi-monthly meetings. The next archive to complete is Little Berlin.</p>
 <p>I was accepted for two workshops, at ISEA in Paris late May, and at
 HASTAC (peer-reviewed) in June. HASTAC will also feature an exhibition
-of the archives. Time to complete these!</p>
-<p>Other thoughts:</p>
-<p>Menu Diving (!) interfaces.</p>
-<p>CLI - using fzf to dig deeper through menus.</p>
-<p>Lua/Love2d-built simple folder + text browser concept.</p>
-<p>Roku channel as archive distribution/presentation tool?</p>
+of the archives.</p>
+<p>Spent time considering and alternative OS considerations for browsing
+archives via the file system, including through GUI file systems, CLI,
+and through TUI. Also spent time working with fzf fuzzy finder to build
+Text User Interfaces. Another potential point to investigate would be
+using Lua/Love2d to build simple GUI based on folders and text, like a
+browser client concept. Would work offline.</p>
+<p>Researched creation of Roku channels as potential archive
+distribution and presentation tool.</p>
 <p><a
 href="https://developer.roku.com/en-gb/docs/direct-publisher/overview.html">Roku
 Direct Publishing</a></p>
 <p><a
 href="https://developer.roku.com/en-gb/docs/developer-program/getting-started/hello-world.html">Roku
-Hello World sideloaded app example</a> Also:</p>
-<p>Watched a tutorial from Rhizome on using Conifer (former:
-webrecorder). It’s a cool tool. Nice web UI. Has free and paid
+Hello World sideloaded app example</a> Attended online tutorial from
+Rhizome on using Conifer (former: webrecorder) with its free and paid
 features.</p>
-<h3 id="section-2">2023-01-31</h3>
+<h3 id="section-3">2023-01-31</h3>
 <p>Some recent events:</p>
 <ul>
 <li>My talk and workshop for the Digital Literature for Social Good
-Unconference went really well! A great first run-through of publicly
-presenting and walking folks through some of the ideas, methodology,
-design process, etc.</li>
+Unconference went well. A great first run-through of publicly presenting
+and walking folks through some of the ideas, methodology, design
+process, etc.</li>
 <li>Visited the Internet Archive, interviewed Brewster Kahle, attended
 Public Domain Day 2023! This was really fun.</li>
 <li>Met with legal team from NYU</li>
@@ -105,7 +117,7 @@ Public Domain Day 2023! This was really fun.</li>
 <li>Have been building another draft archive with Internet Archive
 resources. Will test ‘alternative frontend’ ideas.</li>
 </ul>
-<h3 id="section-3">2023-01-17</h3>
+<h3 id="section-4">2023-01-17</h3>
 <p>I found many more great materials while doing research for my
 workshop for the Digital Literature for Social Good Unconference, hosted
 by Bournemouth University (UK) in partnership with the Electronic
@@ -158,14 +170,14 @@ number of example archives of born-digital works by artist-run creative
 communities, various questions to answer and approaches to take. Then
 we’ll break to have people begin working on their own projects while I
 am available to provide assistance or feedback.</p>
-<h3 id="section-4">2023-01-16</h3>
+<h3 id="section-5">2023-01-16</h3>
 <p>I watched the Glenn Kurtz TEDx talk about “Three minutes in Poland,”
 1938 color film footage of a small town only months before the
 holocaust. “What are we looking at? What is preserved when we preserve
 this film?” His subject is weighty and serious. One of the things he
 talked about is that these snapshots, home movies - we don’t know what
 we will find important years later.</p>
-<h3 id="section-5">2023-01-07</h3>
+<h3 id="section-6">2023-01-07</h3>
 <p>Work continues on Gas archive, now with Andrew L helping. He set up
 Kirby, which we’ve switched to, in order to make the organizing, backend
 easier. On the one hand, I think it will be a lot easier than a json
@@ -176,7 +188,7 @@ are rendered). Kirby pops out a static site. Kirby’s code is public, and
 has been maintained for over a decade by a single dev, though it is not
 open source and each individual site requires a license, currently $105.
 That and the complexity of setting it up mean it’s good for creating our
-costume archive but I fear the fee, complexity, and lack of open source
+custom archive but I fear the fee, complexity, and lack of open source
 mean again this isn’t a good general tool for non-devs. But due to some
 of these reasons, namely a sustainable business and static output and
 good documentation and easier ‘database’ system, it is a fine choice for
@@ -227,9 +239,9 @@ href="http://cup.columbia.edu/book/duchamp-is-my-lawyer/9780231186957">Duchamp
 Is My Lawyer on Columbia University Press</a></p>
 <p><a href="https://ubuweb.com/resources/top_tens.html">UbuWeb Top
 Tens</a></p>
-<h3 id="section-6">2022-12-05</h3>
+<h3 id="section-7">2022-12-05</h3>
 <p>Working on GAS archive. More on that later.</p>
-<p>Started on working on new tool to interoperate with my bookmobile
+<p>Started working on new tool to interoperate with my Bookmobile
 library which pulls down articles, runs them through the Readability
 library to remove cruft (headers, ads, footers, navigation, etc) and
 then save as an epub or markdown or cleaned up html or with a css theme
@@ -243,7 +255,7 @@ tools to get photos, texts, audio, video. Tools to
 publish/browse/interact are GUI and CLI tools to make archives of photos
 and text and media, and software to browse these archives (and ideally
 to continue adding to them).</p>
-<p>My bookmobile software relies on readability-cli and its upstream
+<p>My Bookmobile software relies on readability-cli and its upstream
 readability from Mozilla.</p>
 <p>I’m using my new in-progress tool to build another example personal
 archive of artware, interviews, and more on media art and DIY art
@@ -252,7 +264,7 @@ community organizing, among other subjects.</p>
 Readable aka readability-cli on GitLab</a></p>
 <p><a href="https://github.com/mozilla/readability">Mozilla’s
 Readability on GitHub</a></p>
-<h3 id="section-7">2022-11-15</h3>
+<h3 id="section-8">2022-11-15</h3>
 <p>As we’re going deeper into archiving issues of copyright are coming
 back, and specifically how to archive documentation that originates in
 online closed platforms, as opposed to images shared with Creative
@@ -268,44 +280,26 @@ the top!</p>
 </blockquote>
 <p><a href="http://discmaster.textfiles.com/">Textfiles.com
 DiscMaster</a></p>
-<p>I’ve long been a fan of UbuWeb and am excited to pick up Duchamp Is
-My Lawyer by creator/director/webmaster Kenneth Goldsmith.</p>
-<blockquote>
-<p>In Duchamp Is My Lawyer, Goldsmith tells the history of UbuWeb,
-explaining the motivations behind its creation and how artistic works
-are archived, consumed, and distributed online. Based on his own
-experiences and interviews with a variety of experts, Goldsmith
-describes how the site navigates issues of copyright and the ways that
-UbuWeb challenges familiar configurations and histories of the
-avant-garde. The book also portrays the growth of other “shadow
-libraries” and includes a section on the artists whose works reflect the
-aims, aesthetics, and ethos of UbuWeb. Goldsmith concludes by
-contrasting UbuWeb’s commitment to the free-culture movement and giving
-access to a wide range of artistic works with today’s gatekeepers of
-algorithmic culture, such as Netflix, Amazon, and Spotify.</p>
-</blockquote>
-<p><a
-href="http://cup.columbia.edu/book/duchamp-is-my-lawyer/9780231186957">Duchamp
-Is My Lawyer: The Polemics, Pragmatics, and Poetics of UbuWeb</a></p>
-<h3 id="section-8">2022-10-27</h3>
-<p>Flux Thursday dinner with members of Institute for X visiting us in
-NYC. They talked about the funding of X, how its precarious, how it
+<h3 id="section-9">2022-10-27</h3>
+<p>Flux Thursday dinner with members of <a
+href="https://institutforx.dk/">Institute for X</a> visiting us in NYC.
+They talked about the funding of X, its precarious nature, and how it
 works with the city, and how Danish society and culture differs from our
-US models. One of the things they emphasize was the importance of
+US model. One of the things they emphasize was the importance of
 explaining the value and activities of X when meeting with politicians.
 How do they make the case and demonstrate what they’re doing is
 essential, important, timely? They printed a large book This is X to
 document the community, its mission and activities. I’m reminded of
 earlier discussions with LACA about printed materials, about my choice
-to make Zine software for our pilot project with 1026, about Coaxial and
-Elevator Monday’s printed books as well. Seems like an important part of
-the puzzle would be to provide simple (automated if possible) layout
-software for spaces to make publications, though I don’t know how bogged
-down in this I want to be right away before completing digital archiving
-activity first.</p>
+to make Zine software for our pilot project with Space 1026, about
+Coaxial and Elevator Mondays’ printed books as well. Seems like an
+important part of the puzzle would be to provide simple (automated if
+possible) layout software for spaces to make publications, though I
+don’t know how bogged down in this I want to be right away before
+completing digital archiving activity first.</p>
 <p><a href="https://institutforx.dk/publications/this-is-x/">This is X
 book</a></p>
-<h3 id="section-9">2022-10-25</h3>
+<h3 id="section-10">2022-10-25</h3>
 <p>Worked with Caleb on json templating and reviewing ideas for
 manipulating/resizing images using imagemagick.</p>
 <p>Going back to my earlier discussion about producing various
@@ -319,8 +313,9 @@ templates, full images - example: Gas * archive ‘application’ - built
 with lua/love and compiled. Views with text and images build from
 folder/structure * web 1.0 - just html (from markdown), css, color
 images * gemini - gemtext, dithered b&amp;w images</p>
-<p>This workflow would work along Archive-It.</p>
-<h3 id="section-10">2022-10-18</h3>
+<p>Need to consider how this workflow could work along with
+Archive-It.</p>
+<h3 id="section-11">2022-10-18</h3>
 <p>I read this blog post about a speculative idea to have a browser
 standard for specifying website fidelity. They point out how NPR, CNN,
 PBS (for example) offer minimal versions of their sites without images
@@ -344,7 +339,7 @@ files (text, images, video, audio) that can be reproduced and
 shared.</p>
 <p><a href="https://blog.jim-nielsen.com/2022/website-fidelity/">Website
 Fidelity</a></p>
-<h3 id="section-11">2022-10-18</h3>
+<h3 id="section-12">2022-10-18</h3>
 <p>I want to write a bit more about digital preservation, which I think
 of as a nascent movement with many possible permutations.</p>
 <blockquote>
@@ -381,11 +376,11 @@ Aymeric Mansoux, who both have a practice that goes back over a decade
 examining and creating new works dealing with issues of digital
 preservation. Their project What Remains, with Dave and Amber Griffiths,
 is an 8-bit videogame about archives and the environment, created to run
-on the 1985 Nintendo Entertainment System (NES). In the interview What
-“Kind of Archivist Are You?” they speak about using this old platform,
-with lots of emulators, with a thriving community 40 years on, and how
-old cartridges may ‘last forever.’ When asked about the position of
-public institutions on how archival systems function they say</p>
+on the 1985 Nintendo Entertainment System (NES). In the interview they
+speak about using this old platform, with lots of emulators, with a
+thriving community 40 years on, and how old cartridges may ‘last
+forever.’ When asked about the position of public institutions on how
+archival systems function they say</p>
 <blockquote>
 <p>…today’s difficulty for archival systems to be truly useful is linked
 to the need to constantly work around their incapacity to make things
@@ -414,7 +409,7 @@ objects, to the conveniences and challenges of working with corporate
 platforms, to the independent communities that work to free, share,
 preserve, use and breathe life into the shared works.</p>
 <p>By the way, I love the license they use for their interview, the
-Copypast 1.0 License.</p>
+Copypasta 1.0 License.</p>
 <p><a
 href="https://archiefinterpretaties.hetnieuweinstituut.nl/en/new-archive-interpretations">New
 Archive Interpretations</a></p>
@@ -423,7 +418,7 @@ href="http://aaaan.net/aymeric-mansoux-and-marloes-de-valk-the-need-to-archive/"
 Mansoux and Marloes de Valk: What kind of archivist are you?</a></p>
 <p><a href="https://things.bleu255.com/licenses/copypasta.txt">Copypasta
 1.0 License</a></p>
-<h3 id="section-12">2022-10-08</h3>
+<h3 id="section-13">2022-10-08</h3>
 <p>Caleb and I met online with Eli Mellen, a friend via Mastodon code
 community. He offered to talk with us about site architecture, about
 some of our ideas, and to give feedback. It was a generous offer, and
@@ -495,14 +490,14 @@ on the page even if it’s not visible. Image descriptions: can you
 automate the building of that? For example: Artist name, name of piece,
 in this exhibit.</p>
 <p>And what’s the experience like if a site loads with no images, for
-screen readers, etc.</p>
+screen readers, etc?</p>
 <p>If we decide to add a search tool (I think unlikely?), he suggested
 looking at lunrjs.com, a client-side search, no database needed. Uses
 data in json. This is a way to add searching and filtering. A powerful
 tool if you’re willing to add client side javascript. It’s modeled after
 solr, which is a beefy java search indexing machine. There are some
 alternatives to lunr as well.</p>
-<h3 id="section-13">2022-09-23</h3>
+<h3 id="section-14">2022-09-23</h3>
 <p>Met with Caleb to review GAS design and the collected archive assets.
 We continued discussion on designing an archive for longevity. We’ve
 pretty much ruled out fast-moving frameworks but we’re still thinking we
@@ -520,8 +515,8 @@ a device to browse an archive. Partly inspired by Community Memory, this
 would be a computer with monitor and keyboard, and not intended as web
 software, but as an OS with minimal software to view an archive of an
 art space (we’ll test with Flux Factory) and even perhaps to allow
-entry, which could be an uploaded station or as simple as allowing
-people to write in their own memories, experiences as part of their art
+entry, which could be an upload station or as simple as allowing people
+to write in their own memories, experiences as part of their art
 space/specific art community.</p>
 <pre><code>                 /\
                 /  \
@@ -635,7 +630,7 @@ organizing our data (artist names, exhibits, artwork lists, statements,
 etc etc) and considered JSON and SQLite and looked into some SQLite
 frontend code options. We’ll likely stick with JSON since it’s pretty
 standard and we know it and our ‘database’ will be relatively small.</p>
-<h3 id="section-14">2022-09-21</h3>
+<h3 id="section-15">2022-09-21</h3>
 <p>Today I am tuning into Publishing Partyline, a series of talks online
 organized on Varia about web-to-print design practices. For Experimental
 Archive Space we are using Bindery.js to mock up and print the zines,
@@ -643,13 +638,13 @@ but found Bindery a bit brittle to work with. I’d really like an
 easy-to-use web-to-print workflow so I can build-in easy
 zine/catalog-making software for art spaces so they can have digital PDF
 and print PDF archives.</p>
-<p><a href="http://bindery.info/">Bindery.js</a><br />
-<a href="https://varia.zone/en/publishing-partyline.html">Publishing
-PartyLine</a><br />
-<a href="http://osp.kitchen/">Open Source Publishing</a><br />
-<a href="https://pagedjs.org/">paged.js</a></p>
-<h3 id="section-15">2022-09-20</h3>
-<p>Attended talk at NYU Engelberg Center with Brewster Kahle talking
+<p><a href="http://bindery.info/">Bindery.js</a></p>
+<p><a href="https://varia.zone/en/publishing-partyline.html">Publishing
+PartyLine</a></p>
+<p><a href="http://osp.kitchen/">Open Source Publishing</a></p>
+<p><a href="https://pagedjs.org/">paged.js</a></p>
+<h3 id="section-16">2022-09-20</h3>
+<p>Attended a talk at NYU Engelberg Center with Brewster Kahle talking
 about the Internet Archive’s legal case against 4 publishing companies
 who are suing them. Kahle talked about a canadian term Technological
 Neutraility - what you can do with previous-generation technology
@@ -658,11 +653,7 @@ Neutraility - what you can do with previous-generation technology
 the Archiving Artist Spaces project. He was extremely supportive and
 gave me some contacts at his organization to get in touch with and some
 suggestions to look into their API and to help other groups learn about
-and use ArchiveIt.</p>
-<h3 id="section-16">2022-09-07</h3>
-<p>Relapse of concussion symptoms. Ongoing dizziness, pain, headache,
-etc issues has made this project go at least half as slow as the pace
-I’d like it to go since computer work is harder.</p>
+and use Archive-It.</p>
 <h3 id="section-17">2022-09-06</h3>
 <p>Ongoing work on Gas archive</p>
 <h3 id="section-18">2022-08-11</h3>
@@ -671,20 +662,17 @@ Factory in Aarhus, Denmark.</p>
 <h3 id="section-19">2022-07-21</h3>
 <p>Pete and I completed an initial draft of the Little Berlin
 archive.</p>
-<h3 id="section-20">2022-06-30</h3>
-<p>Discuss Gas archive.</p>
-<h3 id="section-21">2022-06-15</h3>
-<p>Mostly recovered from concussion now. Able to code and work again.
-Met with Pete last week to check in on Little Berlin web archiving
+<h3 id="section-20">2022-06-15</h3>
+<p>Met with Pete last week to check in on Little Berlin web archiving
 project. Trying to get a draft completed this week. Got all events page
 to render text if available. This process seems overly complicated and
 not a precise copy. Using a webrecorder archiver might be a better fit
 for most use cases for minified / obscured site code. Will
 investigate.</p>
-<p>Links:</p>
+<p>An example of an artist working in the archive:</p>
 <p><a href="https://citizen-dj.labs.loc.gov/about/">Library of Congress
 Citizen DJ project</a></p>
-<h3 id="section-22">2022-04-30</h3>
+<h3 id="section-21">2022-04-30</h3>
 <p>Last night I watched <a
 href="https://en.wikipedia.org/wiki/Dawson_City:_Frozen_Time">Dawson
 City: Frozen Time</a>, an incredible and gorgeous documentary about the
@@ -719,7 +707,7 @@ many other wikipedia articles, including about bike sharing programs and
 Provo, the Lower East Side Motherfuckers, and some other places. Time
 for another edition. And a good reminder of the importance of physical
 print documentation.</p>
-<h3 id="section-23">2022-04-26</h3>
+<h3 id="section-22">2022-04-26</h3>
 <p>I’m part of the Flux Factory collective, and we’ll be in residency on
 Governor’s Island beginning now through the fall. That’s a long time!
 Along with Flux Factory (in building 404), a large number of
@@ -747,13 +735,13 @@ business will be to make an Archiving Artist Spaces website, a
 placeholder, and then to print handouts/flyres Calling For Artist-Run
 Spaces. I may build a little library space for zines in nook at some
 point, and hold workshops in the summer or fall.</p>
-<h3 id="section-24">2022-04-20</h3>
-<p>In the end of February I suffered a serious concussion and was unable
-to work for a month and a half.</p>
+<h3 id="section-23">2022-04-20</h3>
+<p>In the end of February I suffered a serious concussion and am going
+through rehab.</p>
 <p>I wasn’t able to do much of anything on the project, but I did gather
 some related zines and talk to a few folks involved in archival
 work.</p>
-<h3 id="section-25">2022-02-21</h3>
+<h3 id="section-24">2022-02-21</h3>
 <p>Met up with a friend from grad school today. He runs a company that
 creates archives of artwork documentation online for individual artists
 and institutions. It’s a commercial service with yearly charges. I’m
@@ -800,7 +788,7 @@ buying station wagons?”</p>
 <p>Aside from the obviously mistaken “They’ve been modified in such a
 way that they never, ever break down” statement, it’s a great and
 hilarious metaphor.</p>
-<h3 id="section-26">2022-02-20</h3>
+<h3 id="section-25">2022-02-20</h3>
 <p>Some notes on two things I reviewed today:</p>
 <p>The Digital Preservation Commission is a UK and Ireland company and
 charity that works to help its members “secure our digital legacy.” They
@@ -825,15 +813,15 @@ to future generations, she says. “They need to.”</p>
 <p>Links:</p>
 <p><a
 href="https://www.youtube.com/channel/UCgCmeMYeF0nfZCRSof6qXug">DPC’s
-YouTube channel</a><br />
-<a href="https://www.youtube.com/watch?v=9_Nou5vlabc">Web &amp; Social
-Media Archiving:’ DIY Approaches &amp; Tools and HTTrack</a><br />
-<a href="https://www.dpconline.org/handbook/getting-started">DPC Digital
-Preservation Handbook</a><br />
-<a
+YouTube channel</a></p>
+<p><a href="https://www.youtube.com/watch?v=9_Nou5vlabc">Web &amp;
+Social Media Archiving:’ DIY Approaches &amp; Tools and HTTrack</a></p>
+<p><a href="https://www.dpconline.org/handbook/getting-started">DPC
+Digital Preservation Handbook</a></p>
+<p><a
 href="https://www.technologyreview.com/2002/10/01/234717/data-extinction/">Data
 Extinction</a> (MIT Technology Review)</p>
-<h3 id="section-27">2022-02-12</h3>
+<h3 id="section-26">2022-02-12</h3>
 <p>There was an article in NPR today about archiving artwork from the
 Black Lives Matter protest on the fence that stood between The White
 House and Lafayette Park during 2020 protests.</p>
@@ -883,7 +871,7 @@ this database is to document and analyze street art for scholarship,
 research, and teaching. Whenever possible we have included the names of
 artists responsible for creating these works. If you notice any errors
 or ommisions, please let us know!” The site and works are also licensed
-CC 4.0 SA.</p>
+CC BY-SA.</p>
 <p>I’m curious whether Library of Congress might be a good fit for the
 collections of digital artifacts (and possibly paper/item artifacts) as
 well from the artist-run archives I’m working with. And lastly, I’m
@@ -892,18 +880,18 @@ of Society of American Archivist’s Digital Design Records Taskforce.</p>
 <p>Links:</p>
 <p><a href="https://text.npr.org/1080027368">Artwork from the Black
 Lives Matter memorial has a new home: the Library of Congress</a>
-(NPR)<br />
-<a
+(NPR)</p>
+<p><a
 href="https://www.loc.gov/pictures/search/?q=black+lives+matter+memorial+fence&amp;st=gallery">Black
-Lives Matter Memorial Fence search</a> (Library of Congress)<br />
-<a href="https://www.loc.gov/pictures/item/2021630016/">Example
-item</a><br />
-<a href="https://georgefloydstreetart.omeka.net/">George Floyd and
-Anti-Racist Street Art Archive</a><br />
-<a
+Lives Matter Memorial Fence search</a> (Library of Congress)</p>
+<p><a href="https://www.loc.gov/pictures/item/2021630016/">Example
+item</a></p>
+<p><a href="https://georgefloydstreetart.omeka.net/">George Floyd and
+Anti-Racist Street Art Archive</a></p>
+<p><a
 href="https://www2.archivists.org/prof-education/faculty/aliza-leventhal">Aliza
 Leventhal on website of The Society of American Archivists</a></p>
-<h3 id="section-28">2022-02-11</h3>
+<h3 id="section-27">2022-02-11</h3>
 <p>Learning from LACA:</p>
 <p>I spent the afternoon today in the stacks of Los Angeles Contemporary
 Archive (LACA), meeting with the director Hailey, and going through
@@ -940,13 +928,18 @@ in the event of a localized disaster</li>
 <li>physical supplies and maintenance for the space and physical
 preservation</li>
 </ul>
-<p>Some questions for LACA: * what practices can a space follow to
-ensure longterm protection of their creative activities? * what kinds of
-institutions might a space outside of LA want to be in contact with
-about caretaking or archiving their work? * is it important to print out
-web-based material (press releases, posts, exhibition pages, emails) for
-archiving? * are you concerned about photocopy paper degrading? * how do
-you decide which materials from an artist space to preserve?</p>
+<p>Some questions for LACA:</p>
+<ul>
+<li>what practices can a space follow to ensure longterm protection of
+their creative activities?</li>
+<li>what kinds of institutions might a space outside of LA want to be in
+contact with about caretaking or archiving their work?</li>
+<li>is it important to print out web-based material (press releases,
+posts, exhibition pages, emails) for archiving?</li>
+<li>are you concerned about photocopy paper degrading?</li>
+<li>how do you decide which materials from an artist space to
+preserve?</li>
+</ul>
 <p>I started thinking about the contents of the toolkit I will build for
 spaces interested in self-preservation archiving. Here’s some questions
 that can go in the ‘assessment’ / how-to document:</p>
@@ -958,9 +951,13 @@ performances, instagram posts…)</li>
 <li>what materials are out ‘there’ that you need help accessing? how can
 you gain access to preserve it?</li>
 </ul>
-<p>Some items I should put together: * mission * collections - what do
-we preserve? * programs - trainings, what else? * I’ll want to put
-together a consent/oral history intake form.</p>
+<p>Some items I should put together:</p>
+<ul>
+<li>mission</li>
+<li>collections - what do we preserve?</li>
+<li>programs - trainings, what else?</li>
+<li>I’ll want to put together a consent/oral history intake form.</li>
+</ul>
 <p>While looking at all of these physical artifacts and books today I
 realized I need to clarify how what I’m working on (archiving digital
 collections) relates to physical archives. I probably should have
@@ -982,8 +979,8 @@ have to think through ways to help people create contextual
 information.</p>
 <p>Many of the archival books relating to artist-run spaces I reviewed
 consisted primarily of photo documentation, with a few essays or
-interviews at the end. Some others were roganized differently, with
-receipts or emails short welcome message., or maybe a filled out new
+interviews at the end. Some others were organized differently, with
+receipts or emails, short welcome message, or maybe a filled out new
 member/application form from each participant. Increasingly, I think in
 addition to these web archives having a physical book is important as
 well. It can find different audiences as it can be more easily shared.
@@ -993,24 +990,25 @@ context. This is also prompting me to think about my potential creation
 of this kind of book layout software that can help with this.</p>
 <p>Links:</p>
 <p><a href="http://lacarchive.com">Los Angeles Contemporary
-Archive</a><br />
-<a
-href="https://www.arts.gov.au/sites/default/files/significance-2.0.pdf?acsf_files_redirect">Significance
+Archive</a></p>
+<p><a
+href="https://web.archive.org/web/20211110044329/https://www.arts.gov.au/sites/default/files/significance-2.0.pdf?acsf_files_redirect">Significance
 2.0: A Guide to Assessing the Significance of Collections</a> (PDF,
-Collections Council of Australia)</p>
-<h3 id="section-29">2022-02-06</h3>
+Collections Council of Australia, original ironically is down, copy on
+archive.org)</p>
+<h3 id="section-28">2022-02-06</h3>
 <p>Took a hike in Griffith Park with Brianna, Nina, Don, Gu. Spoke with
 Don about Elevator Mondays, his former DIY space in Pico Union. I used
 to visit when I lived in LA. I talked about my project and spoke about
-the generative zine-making part. He designed Elevator Mondays/Elevator
-Book in 2020: “The 314 page book features over 150 artists across 20+
-exhibitions, images of exhibition documentation are combined with studio
-visit snap shots and personal images of friends, hikes, and dogs…there
-are lots of dogs in this book.” We made plans to meet up again so I can
-check out the hand made artist books and look at my generative
-zine-making software. I’m also going to meet up with Ceci and looking
-forward to talking about these issues with GAS, and Eva at Coaxial, and
-LACA and Human Resources.</p>
+the generative zine-makier we built for Experimental Archive Space. He
+designed Elevator Mondays/Elevator Book in 2020: “The 314 page book
+features over 150 artists across 20+ exhibitions, images of exhibition
+documentation are combined with studio visit snap shots and personal
+images of friends, hikes, and dogs…there are lots of dogs in this book.”
+We made plans to meet up again so I can check out the hand made artist
+books and look at my generative zine-making software. I’m also going to
+meet up with Ceci and looking forward to talking about these issues with
+GAS, and Eva at Coaxial, and LACA and Human Resources.</p>
 <p>Links:</p>
 <p><a href="https://www.instagram.com/elevatormondays/">Elevator
 Mondays</a></p>
@@ -1037,7 +1035,7 @@ community that develops out of these spaces. to be caretakers and share
 these archives for future audiences / generations. to build awareness of
 archiving needs and tools that artist-run communities can use.)</li>
 </ul>
-<h3 id="section-30">2021-12-29</h3>
+<h3 id="section-29">2021-12-29</h3>
 <p>This week I looked at Content Management Systems (CMS) options for
 static sites. I didn’t find much. I lean away from Wordpress and most
 other CMS because they’re PHP and dynamic, opening them up to being
@@ -1079,11 +1077,11 @@ fixed.)</em></p>
 <p>Links:</p>
 <p><a href="https://www.developerdrive.com/holy-grail-layout-flexbox/">2
 Ways to Create the Holy Grail Layout with Flexbox</a> (Developer
-Drive)<br />
-<a
+Drive)</p>
+<p><a
 href="https://wordpress.org/plugins/simply-static/#description">SimplyStatic
 static site generator from Wordpress</a></p>
-<h3 id="section-31">2021-06-08</h3>
+<h3 id="section-30">2021-06-08</h3>
 <p>Some notes on using wget on a domain to download images:</p>
 <pre><code>wget -nd -r -A jpeg,jpg,bmp,gif,png --level=inf https://domain.com</code></pre>
 <p>This uses wget to download all images recursively through infinite
@@ -1103,17 +1101,13 @@ designs.</p>
 <p><a
 href="https://machineproject.com/build/engine/wp-content/uploads/2018/01/Machine_Curating.pdf">Machine
 Project Guide to Planning and Curating Events</a> (Machine Project,
-PDF)<br />
-<a href="https://queer.archive.work/">Queer Archive Work</a><br />
-<a href="https://images.artistsspace.org/">Artists Space image
-archive</a><br />
-<a
+PDF)</p>
+<p><a href="https://queer.archive.work/">Queer Archive Work</a></p>
+<p><a href="https://images.artistsspace.org/">Artists Space image
+archive</a></p>
+<p><a
 href="https://github.com/babycastles/Scrape-The-Internet-For-Our-Archives">Babycastles:
 Scrape-The-Internet-For-Our-Archives</a> (GitHub repo)</p>
-<hr />
-<p><a href="https://leetusman.com/archiving-artist-spaces"><img
-src="assets/img/banner.jpg" /></a></p>
-
 <footer>
 <p>
 <hr/>
