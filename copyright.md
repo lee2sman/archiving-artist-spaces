@@ -379,7 +379,3 @@ potential markets for their works to be purchased directly or to license
 use of their works for archiving purposes, and this archive arguably
 harms those markets. If they have licensed their works for similar
 purposes in the past, this can contribute to the argument.
-
----
-
-[![](assets/img/banner.jpg)](https://leetusman.com/archiving-artist-spaces)
