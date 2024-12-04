@@ -35,7 +35,7 @@ Thanks to the many artists of these special spaces, including everyone at Space 
 
 The [copyright](copyright.md) guide was created by Batya Kemper and Lindsay Harris at NYU’s Technology Law & Policy Clinic.
 
-[Color palette Sea Sorcerer](ttps://lospec.com/palette-list/sea-sorcerer) by Noah Rowlands.
+[Color palette Sea Sorcerer](https://lospec.com/palette-list/sea-sorcerer) by Noah Rowlands.
 
 Site architecture and header and footer design adapted from [Compudanzas](https://compudanzas.net/).
 
