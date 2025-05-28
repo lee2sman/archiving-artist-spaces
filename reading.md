@@ -56,6 +56,8 @@ This is a selected reading list of web-based articles and some books that relate
 
 [Elevator Mondays](https://donedler.com/index.php?/elevator/elevator-book/) by Don Edler
 
+[55 Norfolk St.](https://timdevin.com/magicalspaces2.html) and other zines and projects by Tim Devin
+
 ## Code snippets
 
 [Scrape The Internet For Our Archives](https://github.com/babycastles/Scrape-The-Internet-For-Our-Archives) by Babycastles on GitHub ([mirror on Tildegit](https://tildegit.org/exquisitecorp/Scrape-The-Internet-For-Our-Archives))
